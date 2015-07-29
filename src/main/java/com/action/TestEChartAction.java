@@ -6,7 +6,7 @@ import com.opensymphony.xwork2.ActionSupport;
 import com.service.UserService;
 
 @SuppressWarnings("serial")
-public class TestAction extends ActionSupport{
+public class TestEChartAction extends ActionSupport{
 	
 	@Autowired
 	UserService userService;
@@ -17,9 +17,8 @@ public class TestAction extends ActionSupport{
 		return "testSuccess";
 	}
 
-	public String test() {
-		System.out.println("coming in testAction...");
-		userService.test();
-		return "testSuccess";
+	public String testEChart() {
+		System.out.println("coming in testEChart...");
+		return "testEChart";
 	}
 }
