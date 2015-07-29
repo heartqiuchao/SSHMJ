@@ -10,5 +10,8 @@
 	<!-- 自动扫描dao和service包(自动注入) -->
 	<context:component-scan base-package="com.dao" />
 	<context:component-scan base-package="com.serviceimpl" />
-
+	
+	<!--  统一管理action-->
+	<bean id="testSpringAction" class="com.action.TestActionSpring" scope="prototype" />
+	
 </beans>

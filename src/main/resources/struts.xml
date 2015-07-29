@@ -32,7 +32,10 @@
 			<result name="testSuccess">/login.jsp</result>
 			<result name="error">/error.jsp</result>
 		</global-results>
-		<action name="testaction" class="com.action.TestActionAnno">
+		<action name="testAction" class="com.action.TestActionAnno">
+			<result name="testSuccess">/login.jsp</result>
+		</action>
+		<action name="testSpring" class="testSpringAction">
 			<result name="testSuccess">/login.jsp</result>
 		</action>
 	</package>
