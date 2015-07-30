@@ -3,13 +3,13 @@ package com.action;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.opensymphony.xwork2.ActionSupport;
-import com.service.UserService;
+import com.service.ECharService;
 
 @SuppressWarnings("serial")
 public class TestEChartAction extends ActionSupport{
 	
 	@Autowired
-	UserService userService;
+	ECharService echarService;
 	
 	@Override
 	public String execute() throws Exception {

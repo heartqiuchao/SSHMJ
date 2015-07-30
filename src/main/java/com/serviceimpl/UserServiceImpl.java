@@ -1,5 +1,7 @@
 package com.serviceimpl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -51,5 +53,10 @@ public class UserServiceImpl implements UserService{
 			return false;
 		}
 		
+	}
+
+	@Override
+	public List<SystemUser> findAllUser() {
+		return baseDao.findAll("SystemUser");
 	}
 }

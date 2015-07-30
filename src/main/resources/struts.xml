@@ -39,6 +39,8 @@
 		<action name="testSpring" class="testSpringAction">
 			<result name="testSuccess">/login.jsp</result>
 		</action>
+		<action name="commonAction" class="com.action.CommonAction">
+		</action>
 	</package>
 
 </struts>

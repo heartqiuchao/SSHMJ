@@ -1,5 +1,7 @@
 package com.service;
 
+import java.util.List;
+
 import com.orm.SystemUser;
 
 /**
@@ -20,6 +22,11 @@ public interface UserService {
 	 * find user by id
 	 */
 	public SystemUser findUserById(String userid);
+	
+	/**
+	 * find all user
+	 */
+	public List<SystemUser> findAllUser();
 	
 	/**
 	 * delete user by id
