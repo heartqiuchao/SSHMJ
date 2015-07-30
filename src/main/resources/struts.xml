@@ -18,8 +18,8 @@
 	<constant name="struts.i18n.reload" value="true" />
 	<!-- 文件上传最大值 -->
 	<constant name="struts.multipart.maxSize" value="104857600" />
-	<!-- 让struts2支持动态方法调用,使用叹号访问方法 -->
-	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+	<!-- struts2是否支持动态方法调用,使用叹号访问方法 -->
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
 	<!-- Action名称中是否还是用斜线 -->
 	<constant name="struts.enable.SlashesInActionNames" value="false" />
 	<!-- 允许标签中使用表达式语法 -->
@@ -28,18 +28,18 @@
 	<constant name="struts.dispatcher.parametersWorkaround" value="false" />
 
 	<package name="basePackage" namespace="/" extends="struts-default">
+		<default-action-ref name="errorAction"></default-action-ref>
 		<global-results>
 			<result name="testSuccess">/login.jsp</result>
 			<result name="error">/error.jsp</result>
 		</global-results>
-		<action name="testEChartAction" class="com.action.TestEChartAction">
-			<result name="testSuccess">/login.jsp</result>
-			<result name="testEChart">/echart.jsp</result>
+		<action name="errorAction">
+			<result>/error.jsp</result>
 		</action>
-		<action name="testSpring" class="testSpringAction">
-			<result name="testSuccess">/login.jsp</result>
+		<action name="test_*_*" class="test{1}Action" method="{2}" >
+			<result>/{2}.jsp</result>
 		</action>
-		<action name="commonAction" class="com.action.CommonAction">
+		<action name="common_*" class="com.action.CommonAction" method="{1}">
 		</action>
 	</package>
 

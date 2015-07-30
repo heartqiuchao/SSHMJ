@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1>Hello World !</h1>
-	<form name="test" action="testEChartAction!testEChart.action" method="post">
+	<form name="test" action="test_EChart_echart.action" method="post">
 		<input type="submit" value="显示图表" />
 	</form>
 </body>

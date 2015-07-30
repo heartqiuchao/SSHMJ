@@ -12,13 +12,16 @@ public class TestEChartAction extends ActionSupport{
 	ECharService echarService;
 	
 	@Override
-	public String execute() throws Exception {
+	public String execute(){
 		System.out.println("coming in execute....");
-		return "testSuccess";
+		return SUCCESS;
 	}
-
-	public String testEChart() {
+	public String index() {
+		System.out.println("coming in index...");
+		return SUCCESS;
+	}
+	public String echart() {
 		System.out.println("coming in testEChart...");
-		return "testEChart";
+		return SUCCESS;
 	}
 }

@@ -12,6 +12,7 @@
 	<context:component-scan base-package="com.serviceimpl" />
 	
 	<!--  统一管理action-->
-	<bean id="testSpringAction" class="com.action.TestActionSpring" scope="prototype" />
+	<bean id="testSpringAction" class="com.action.TestSpringAction" scope="prototype" />
+	<bean id="testEChartAction" class="com.action.TestEChartAction" scope="prototype" />
 	
 </beans>

@@ -12,7 +12,7 @@ import com.orm.SystemUser;
 import com.service.ECharService;
 import com.service.UserService;
 
-@SuppressWarnings("resource")
+@SuppressWarnings({ "resource", "unused" })
 public class TestHibernate {
 
 	
