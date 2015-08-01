@@ -24,4 +24,8 @@ public class TestEChartAction extends ActionSupport{
 		System.out.println("coming in testEChart...");
 		return SUCCESS;
 	}
+	public String echartmap() {
+		System.out.println("coming in testEChartMap...");
+		return SUCCESS;
+	}
 }

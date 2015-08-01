@@ -8,8 +8,7 @@
 </head>
 <body>
 	<h1>Hello World !</h1>
-	<form name="test" action="test_EChart_echart.action" method="post">
-		<input type="submit" value="显示图表" />
-	</form>
+	<a href="test_EChart_echart.action"><button>显示柱状图</button></a>
+	<a href="test_EChart_echartmap.action"><button>显示地图</button></a>
 </body>
 </html>

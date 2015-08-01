@@ -40,7 +40,9 @@
 				type : "post",
 				asyns : false,//同步执行 
 				url : "common_readData.action",
-				data : {},
+				data : {
+					"entity": "ECharData"//必填
+				},
 				dataType : "json", //返回数据形式为json
 				success : function(result) {	//请求成功
 					for (var i = 0; i < result.length; i++) {
@@ -158,8 +160,8 @@
 							type : 'value'
 						} ],
 						series : [ {
-							"name" : "销量",
-							"type" : "bar",
+							name : "销量",
+							type : "bar",
 							/* "data" : [ 5, 20, 40, 10, 10, 20 ] */
 							data : arr2
 						} ]
