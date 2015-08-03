@@ -20,6 +20,10 @@ public class TestEChartAction extends ActionSupport{
 		System.out.println("coming in index...");
 		return SUCCESS;
 	}
+	public String login() {
+		System.out.println("coming in login...");
+		return SUCCESS;
+	}
 	public String echart() {
 		System.out.println("coming in testEChart...");
 		return SUCCESS;

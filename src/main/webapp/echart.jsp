@@ -3,10 +3,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<%
+	String path = request.getContextPath();
+%>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <!-- ECharts单文件引入 -->
-<script src="js/dist/echarts.js"></script>
-<script src="js/jquery/jquery-2.1.4.min.js"></script>
+<script src="<%=path%>/js/dist/echarts.js"></script>
+<script src="<%=path%>/js/jquery/jquery-2.1.4.min.js"></script>
 <title>EChats</title>
 </head>
 <body>
@@ -63,7 +66,15 @@
 	                        }, 
 	                   // 提示框
 						tooltip : {
-							show : true
+							trigger: 'axis',
+							axisPointer:{
+					            show: true,
+					            type : 'cross',
+					            lineStyle: {
+					                type : 'dashed',
+					                width : 1
+					            }
+							}
 						},
 						//图例
 						legend : {
@@ -157,13 +168,43 @@
 						} ],
 						//Y 坐标
 						yAxis : [ {
-							type : 'value'
+							type : 'value',
+							axisLine: {
+					            lineStyle: {
+					                color: '#48b'
+					            }
+					        }
 						} ],
 						series : [ {
-							name : "销量",
-							type : "bar",
+							name : '销量',
+							type : 'bar',
+							smooth:true,
+							symbol:'circle',
+							symbolSize:5,
 							/* "data" : [ 5, 20, 40, 10, 10, 20 ] */
-							data : arr2
+						    itemStyle: {
+                			    normal: {
+                    				color: 'tomato',
+                    				barBorderColor: 'tomato',
+                    				barBorderWidth: 6,
+                    				barBorderRadius:0,
+                    				label : {
+                        				show: true, position: 'insideTop'
+                    				}
+                				}
+            				},
+							data : arr2,
+							markPoint : {
+				                data : [
+				                    {type : 'max', name: '最大值',itemStyle:{normal:{color:'#1e90ff',label:{position:'right'}}}},
+				                    {type : 'min', name: '最小值',itemStyle:{normal:{color:'#1e90ff',label:{position:'right'}}}}
+				                ]
+				            },
+				            markLine : {
+				                data : [
+				                    {type : 'average', name: '平均值'}
+				                ]
+				            }
 						} ]
 					};
 

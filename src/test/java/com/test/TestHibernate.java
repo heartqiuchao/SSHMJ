@@ -48,20 +48,20 @@ public class TestHibernate {
 		System.out.println("end testSaveMethod...");
 	}*/
 
-	/*@Test
+	@Test
 	public void testSaveECharMethod() {
 		System.out.println("coming in testSaveECharMethod...");
 
 		ECharData eCharData = new ECharData();
 
-		eCharData.setId(1005);
-		eCharData.setName("袜子");
-		eCharData.setNum(10);;
+		eCharData.setId(1008);
+		eCharData.setName("皮鞋");
+		eCharData.setNum(26);;
 
 		echarService.save(eCharData);
 
 		System.out.println("end testSaveECharMethod...");
-	}*/
+	}
 	
 	/*@Test
 	public void testFindMethod() {
@@ -91,7 +91,7 @@ public class TestHibernate {
 		System.out.println("end testFindAllUserMethod...");
 	}*/
 	
-	@Test
+	/*@Test
 	public void testFindAllECharMethod() {
 		System.out.println("coming in testFindAllECharMethod...");
 
@@ -105,7 +105,7 @@ public class TestHibernate {
 		}
 		
 		System.out.println("end testFindAllECharMethod...");
-	}
+	}*/
 
 /*	@Test
 	public void testDeleteMethod() {
