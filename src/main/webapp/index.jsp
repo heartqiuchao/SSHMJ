@@ -8,10 +8,8 @@
 </head>
 <body>
 	<h1>Hello World !</h1>
-	<a href="test_EChart_echart.action"><button>显示柱状图</button></a>
-	<a href="test_EChart_echartmap.action"><button>显示地图</button></a>
-	<a href="test_EChart_main.action"><button>显示系统菜单</button></a>
-	<a href="role_manageRole.action"><button>添加角色</button></a>
-	<a href="test_EChart_addEchart.action"><button>添加EChartData</button></a>
+	<a href="testEChart_echart.action"><button>显示柱状图</button></a>
+	<a href="testEChart_echartmap.action"><button>显示地图</button></a>
+	<a href="testEChart_main.action"><button>显示系统菜单</button></a>
 </body>
 </html>

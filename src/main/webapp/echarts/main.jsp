@@ -52,7 +52,7 @@
 		var zTreeNodes =[
 				{"id":1, "pId":0, "name":"系统维护"},
 			    {"id":11, "pId":1, "name":"系统角色","url":"role_listRole.action", "target":"rightframe"},
-			    {"id":12, "pId":1, "name":"系统用户","url":"http://baidu.com", "target":"rightframe"},
+			    {"id":12, "pId":1, "name":"系统用户","url":"user_listUser.action", "target":"rightframe"},
 			    {"id":13, "pId":1, "name":"系统菜单","url":"http://www.sina.com.cn", "target":"rightframe"}
 		   ];
 		$(document).ready(function(){

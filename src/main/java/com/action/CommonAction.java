@@ -23,7 +23,7 @@ public class CommonAction extends ActionSupport{
 	@Override
     public String execute() throws Exception {
 		System.err.println("coming in commonAction execute...");
-        return "testSuccess";
+        return ERROR;
     }
 	
 	public <T> void readData() {

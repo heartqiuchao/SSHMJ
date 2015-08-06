@@ -16,12 +16,12 @@ import javax.persistence.Table;
 
 @SuppressWarnings("serial")
 @Entity
-@SequenceGenerator(name = "SeqGen1", sequenceName = "systemrole_sequence")
+@SequenceGenerator(name = "SeqGenRole", sequenceName = "systemrole_sequence")
 @Table(name = "SYSTEM_ROLE")
 public class SystemRole implements Serializable {
 
 	@Id
-	@GeneratedValue(generator = "SeqGen1")
+	@GeneratedValue(generator = "SeqGenRole")
 	@Column(name = "ID", precision = 22, scale = 0)
 	private Integer id;
 

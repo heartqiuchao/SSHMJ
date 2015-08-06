@@ -24,6 +24,11 @@ public interface UserService {
 	public SystemUser findUserById(String userid);
 	
 	/**
+	 * find user by name
+	 */
+	public SystemUser findUserByName(String userName);
+	
+	/**
 	 * find all user
 	 */
 	public List<SystemUser> findAllUser();

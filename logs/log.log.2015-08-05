@@ -1,0 +1,1035 @@
+[2015-08-05 17:56:14] [main:0-DEBUG] Initializing new StandardEnvironment
+[2015-08-05 17:56:14] [main:19-DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+[2015-08-05 17:56:14] [main:19-DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+[2015-08-05 17:56:14] [main:19-DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2015-08-05 17:56:14] [main:35-INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6cf76647: startup date [Wed Aug 05 17:56:14 CST 2015]; root of context hierarchy
+[2015-08-05 17:56:14] [main:176-DEBUG] Initializing new StandardEnvironment
+[2015-08-05 17:56:14] [main:176-DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+[2015-08-05 17:56:14] [main:176-DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+[2015-08-05 17:56:14] [main:176-DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2015-08-05 17:56:14] [main:207-INFO] Loading XML bean definitions from class path resource [spring-applicationContext.xml]
+[2015-08-05 17:56:14] [main:254-DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[2015-08-05 17:56:14] [main:347-DEBUG] Loading schema mappings from [META-INF/spring.schemas]
+[2015-08-05 17:56:14] [main:379-DEBUG] Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.alibaba.com/schema/stat.xsd=META-INF/stat.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+[2015-08-05 17:56:14] [main:379-DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+[2015-08-05 17:56:14] [main:488-DEBUG] Found XML schema [http://www.springframework.org/schema/context/spring-context-3.2.xsd] in classpath: org/springframework/context/config/spring-context-3.2.xsd
+[2015-08-05 17:56:14] [main:504-DEBUG] Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.2.xsd
+[2015-08-05 17:56:14] [main:551-DEBUG] Loading bean definitions
+[2015-08-05 17:56:14] [main:582-DEBUG] Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.alibaba.com/schema/stat=com.alibaba.druid.support.spring.stat.config.DruidStatNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+[2015-08-05 17:56:14] [main:629-DEBUG] Initializing new StandardEnvironment
+[2015-08-05 17:56:14] [main:629-DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+[2015-08-05 17:56:14] [main:629-DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+[2015-08-05 17:56:14] [main:629-DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2015-08-05 17:56:14] [main:660-DEBUG] Looking for matching resources in directory tree [F:\workspace\SSHMJ\target\classes\com\dao]
+[2015-08-05 17:56:14] [main:660-DEBUG] Searching directory [F:\workspace\SSHMJ\target\classes\com\dao] for files matching pattern [F:/workspace/SSHMJ/target/classes/com/dao/**/*.class]
+[2015-08-05 17:56:14] [main:660-DEBUG] Resolved location pattern [classpath*:com/dao/**/*.class] to resources [file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDao.class], file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDaoImpl$1.class], file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDaoImpl$2.class], file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDaoImpl.class]]
+[2015-08-05 17:56:15] [main:769-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDaoImpl.class]
+[2015-08-05 17:56:15] [main:816-DEBUG] Initializing new StandardEnvironment
+[2015-08-05 17:56:15] [main:816-DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+[2015-08-05 17:56:15] [main:816-DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+[2015-08-05 17:56:15] [main:816-DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2015-08-05 17:56:15] [main:816-DEBUG] Looking for matching resources in directory tree [F:\workspace\SSHMJ\target\classes\com\serviceimpl]
+[2015-08-05 17:56:15] [main:816-DEBUG] Searching directory [F:\workspace\SSHMJ\target\classes\com\serviceimpl] for files matching pattern [F:/workspace/SSHMJ/target/classes/com/serviceimpl/**/*.class]
+[2015-08-05 17:56:15] [main:816-DEBUG] Resolved location pattern [classpath*:com/serviceimpl/**/*.class] to resources [file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\CommonServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\ECharServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\MenuServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\RoleServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\SystemServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\UserServiceImpl.class]]
+[2015-08-05 17:56:15] [main:832-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\CommonServiceImpl.class]
+[2015-08-05 17:56:15] [main:832-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\ECharServiceImpl.class]
+[2015-08-05 17:56:15] [main:832-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\MenuServiceImpl.class]
+[2015-08-05 17:56:15] [main:832-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\RoleServiceImpl.class]
+[2015-08-05 17:56:15] [main:832-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\SystemServiceImpl.class]
+[2015-08-05 17:56:15] [main:847-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\UserServiceImpl.class]
+[2015-08-05 17:56:15] [main:847-DEBUG] Loaded 15 bean definitions from location pattern [classpath:spring-applicationContext.xml]
+[2015-08-05 17:56:15] [main:847-INFO] Loading XML bean definitions from class path resource [spring-applicationContext-datasource.xml]
+[2015-08-05 17:56:15] [main:847-DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[2015-08-05 17:56:15] [main:863-DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+[2015-08-05 17:56:15] [main:894-DEBUG] Found XML schema [http://www.springframework.org/schema/context/spring-context-3.2.xsd] in classpath: org/springframework/context/config/spring-context-3.2.xsd
+[2015-08-05 17:56:15] [main:910-DEBUG] Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.2.xsd
+[2015-08-05 17:56:15] [main:941-DEBUG] Found XML schema [http://www.springframework.org/schema/tx/spring-tx-3.2.xsd] in classpath: org/springframework/transaction/config/spring-tx-3.2.xsd
+[2015-08-05 17:56:15] [main:941-DEBUG] Found XML schema [http://www.springframework.org/schema/aop/spring-aop-3.2.xsd] in classpath: org/springframework/aop/config/spring-aop-3.2.xsd
+[2015-08-05 17:56:15] [main:957-DEBUG] Loading bean definitions
+[2015-08-05 17:56:15] [main:973-DEBUG] No XML 'id' specified - using 'dataSource' as bean name and [] as aliases
+[2015-08-05 17:56:15] [main:1082-DEBUG] Loaded 9 bean definitions from location pattern [classpath:spring-applicationContext-datasource.xml]
+[2015-08-05 17:56:15] [main:1084-DEBUG] Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@6cf76647: org.springframework.beans.factory.support.DefaultListableBeanFactory@2a297593: defining beans [baseDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,commonService,echarService,menuService,roleService,systemService,userService,testSpringAction,testEChartAction,roleAction,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sessionFactory,hibernateTemplate,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,allTransactionMethod,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0]; root of factory hierarchy
+[2015-08-05 17:56:15] [main:1195-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2015-08-05 17:56:15] [main:1195-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2015-08-05 17:56:15] [main:1242-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 17:56:15] [main:1242-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2015-08-05 17:56:15] [main:1367-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[2015-08-05 17:56:15] [main:1367-DEBUG] Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[2015-08-05 17:56:15] [main:1367-DEBUG] Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+[2015-08-05 17:56:15] [main:1430-DEBUG] Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[2015-08-05 17:56:15] [main:1430-DEBUG] Adding [environmentProperties] PropertySource with lowest search precedence
+[2015-08-05 17:56:15] [main:1430-INFO] Loading properties file from class path resource [jdbc.properties]
+[2015-08-05 17:56:15] [main:1430-DEBUG] Adding [localProperties] PropertySource with lowest search precedence
+[2015-08-05 17:56:15] [main:1445-DEBUG] Searching for key 'jdbc_url' in [environmentProperties]
+[2015-08-05 17:56:15] [main:1445-DEBUG] Searching for key 'jdbc_url' in [systemProperties]
+[2015-08-05 17:56:15] [main:1445-DEBUG] Searching for key 'jdbc_url' in [systemEnvironment]
+[2015-08-05 17:56:15] [main:1445-DEBUG] Could not find key 'jdbc_url' in any property source. Returning [null]
+[2015-08-05 17:56:15] [main:1445-DEBUG] Searching for key 'jdbc_url' in [localProperties]
+[2015-08-05 17:56:15] [main:1445-DEBUG] Found key 'jdbc_url' in [localProperties] with type [String] and value 'jdbc:mysql://localhost:3306/testHibernate?useUnicode=true&characterEncoding=UTF-8'
+[2015-08-05 17:56:15] [main:1445-DEBUG] Searching for key 'jdbc_username' in [environmentProperties]
+[2015-08-05 17:56:15] [main:1445-DEBUG] Searching for key 'jdbc_username' in [systemProperties]
+[2015-08-05 17:56:15] [main:1445-DEBUG] Searching for key 'jdbc_username' in [systemEnvironment]
+[2015-08-05 17:56:15] [main:1445-DEBUG] Could not find key 'jdbc_username' in any property source. Returning [null]
+[2015-08-05 17:56:15] [main:1445-DEBUG] Searching for key 'jdbc_username' in [localProperties]
+[2015-08-05 17:56:15] [main:1445-DEBUG] Found key 'jdbc_username' in [localProperties] with type [String] and value 'root'
+[2015-08-05 17:56:15] [main:1445-DEBUG] Searching for key 'jdbc_password' in [environmentProperties]
+[2015-08-05 17:56:15] [main:1461-DEBUG] Searching for key 'jdbc_password' in [systemProperties]
+[2015-08-05 17:56:15] [main:1461-DEBUG] Searching for key 'jdbc_password' in [systemEnvironment]
+[2015-08-05 17:56:15] [main:1461-DEBUG] Could not find key 'jdbc_password' in any property source. Returning [null]
+[2015-08-05 17:56:15] [main:1461-DEBUG] Searching for key 'jdbc_password' in [localProperties]
+[2015-08-05 17:56:15] [main:1461-DEBUG] Found key 'jdbc_password' in [localProperties] with type [String] and value '1211119'
+[2015-08-05 17:56:15] [main:1461-DEBUG] Searching for key 'validationQuery' in [environmentProperties]
+[2015-08-05 17:56:15] [main:1461-DEBUG] Searching for key 'validationQuery' in [systemProperties]
+[2015-08-05 17:56:15] [main:1461-DEBUG] Searching for key 'validationQuery' in [systemEnvironment]
+[2015-08-05 17:56:15] [main:1461-DEBUG] Could not find key 'validationQuery' in any property source. Returning [null]
+[2015-08-05 17:56:15] [main:1461-DEBUG] Searching for key 'validationQuery' in [localProperties]
+[2015-08-05 17:56:15] [main:1461-DEBUG] Found key 'validationQuery' in [localProperties] with type [String] and value 'SELECT 1'
+[2015-08-05 17:56:15] [main:1461-DEBUG] Searching for key 'hibernate.dialect' in [environmentProperties]
+[2015-08-05 17:56:15] [main:1461-DEBUG] Searching for key 'hibernate.dialect' in [systemProperties]
+[2015-08-05 17:56:15] [main:1461-DEBUG] Searching for key 'hibernate.dialect' in [systemEnvironment]
+[2015-08-05 17:56:15] [main:1461-DEBUG] Could not find key 'hibernate.dialect' in any property source. Returning [null]
+[2015-08-05 17:56:15] [main:1461-DEBUG] Searching for key 'hibernate.dialect' in [localProperties]
+[2015-08-05 17:56:15] [main:1461-DEBUG] Found key 'hibernate.dialect' in [localProperties] with type [String] and value 'org.hibernate.dialect.MySQLDialect'
+[2015-08-05 17:56:15] [main:1461-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2015-08-05 17:56:15] [main:1461-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2015-08-05 17:56:15] [main:1477-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 17:56:15] [main:1477-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2015-08-05 17:56:15] [main:1477-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2015-08-05 17:56:15] [main:1477-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2015-08-05 17:56:15] [main:1477-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 17:56:15] [main:1477-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2015-08-05 17:56:15] [main:1477-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2015-08-05 17:56:15] [main:1477-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2015-08-05 17:56:15] [main:1492-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 17:56:15] [main:1492-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2015-08-05 17:56:15] [main:1492-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2015-08-05 17:56:15] [main:1492-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2015-08-05 17:56:15] [main:1492-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 17:56:15] [main:1492-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2015-08-05 17:56:15] [main:1492-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2015-08-05 17:56:15] [main:1492-DEBUG] Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2015-08-05 17:56:15] [main:1492-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+[2015-08-05 17:56:15] [main:1492-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2015-08-05 17:56:15] [main:1492-DEBUG] Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2015-08-05 17:56:15] [main:1492-DEBUG] Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2015-08-05 17:56:15] [main:1523-DEBUG] Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+[2015-08-05 17:56:15] [main:1555-DEBUG] Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2015-08-05 17:56:15] [main:1555-DEBUG] Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@92163f9]
+[2015-08-05 17:56:15] [main:1570-DEBUG] Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@51e2299d]
+[2015-08-05 17:56:15] [main:1570-INFO] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2a297593: defining beans [baseDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,commonService,echarService,menuService,roleService,systemService,userService,testSpringAction,testEChartAction,roleAction,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sessionFactory,hibernateTemplate,transactionManager,transactionAdvice,org.springframework.aop.config.internalAutoProxyCreator,allTransactionMethod,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[2015-08-05 17:56:15] [main:1586-DEBUG] Creating shared instance of singleton bean 'baseDao'
+[2015-08-05 17:56:15] [main:1586-DEBUG] Creating instance of bean 'baseDao'
+[2015-08-05 17:56:15] [main:1602-DEBUG] Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:15] [main:1602-DEBUG] Creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:15] [main:1602-DEBUG] Eagerly caching bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' to allow for resolving potential circular references
+[2015-08-05 17:56:15] [main:1648-DEBUG] Creating instance of bean 'allTransactionMethod'
+[2015-08-05 17:56:15] [main:1664-DEBUG] Finished creating instance of bean 'allTransactionMethod'
+[2015-08-05 17:56:15] [main:1664-DEBUG] Finished creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:15] [main:1695-DEBUG] Registered injected element on class [com.dao.BaseDaoImpl]: AutowiredFieldElement for org.springframework.orm.hibernate3.HibernateTemplate com.dao.BaseDaoImpl.hibernateTemplate
+[2015-08-05 17:56:15] [main:1695-DEBUG] Eagerly caching bean 'baseDao' to allow for resolving potential circular references
+[2015-08-05 17:56:15] [main:1695-DEBUG] Processing injected method of bean 'baseDao': AutowiredFieldElement for org.springframework.orm.hibernate3.HibernateTemplate com.dao.BaseDaoImpl.hibernateTemplate
+[2015-08-05 17:56:15] [main:1711-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:15] [main:1742-DEBUG] Creating shared instance of singleton bean 'hibernateTemplate'
+[2015-08-05 17:56:15] [main:1742-DEBUG] Creating instance of bean 'hibernateTemplate'
+[2015-08-05 17:56:15] [main:1742-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:16] [main:1789-DEBUG] Eagerly caching bean 'hibernateTemplate' to allow for resolving potential circular references
+[2015-08-05 17:56:16] [main:1805-DEBUG] Creating shared instance of singleton bean 'sessionFactory'
+[2015-08-05 17:56:16] [main:1805-DEBUG] Creating instance of bean 'sessionFactory'
+[2015-08-05 17:56:16] [main:1836-DEBUG] Eagerly caching bean 'sessionFactory' to allow for resolving potential circular references
+[2015-08-05 17:56:16] [main:1867-DEBUG] Creating shared instance of singleton bean 'dataSource'
+[2015-08-05 17:56:16] [main:1867-DEBUG] Creating instance of bean 'dataSource'
+[2015-08-05 17:56:16] [main:1867-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:16] [main:1961-DEBUG] Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+[2015-08-05 17:56:16] [main:2086-ERROR] maxIdle is deprecated
+[2015-08-05 17:56:16] [main:2137-DEBUG] Invoking init method  'init' on bean with name 'dataSource'
+[2015-08-05 17:56:16] [main:2340-INFO] {dataSource-1} inited
+[2015-08-05 17:56:16] [main:2340-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:16] [main:2355-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:17] [main:3121-DEBUG] Finished creating instance of bean 'dataSource'
+[2015-08-05 17:56:17] [main:3137-DEBUG] Invoking afterPropertiesSet() on bean with name 'sessionFactory'
+[2015-08-05 17:56:17] [main:3674-DEBUG] Looking for matching resources in directory tree [F:\workspace\SSHMJ\target\classes\com\orm]
+[2015-08-05 17:56:17] [main:3674-DEBUG] Searching directory [F:\workspace\SSHMJ\target\classes\com\orm] for files matching pattern [F:/workspace/SSHMJ/target/classes/com/orm/**/*.class]
+[2015-08-05 17:56:17] [main:3674-DEBUG] Resolved location pattern [classpath*:com/orm/**/*.class] to resources [file [F:\workspace\SSHMJ\target\classes\com\orm\ECharData.class], file [F:\workspace\SSHMJ\target\classes\com\orm\SystemMenu.class], file [F:\workspace\SSHMJ\target\classes\com\orm\SystemRole.class], file [F:\workspace\SSHMJ\target\classes\com\orm\SystemUser.class]]
+[2015-08-05 17:56:18] [main:4096-INFO] Building new Hibernate SessionFactory
+[2015-08-05 17:56:19] [main:5549-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:19] [main:5549-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:19] [main:5580-DEBUG] Finished creating instance of bean 'sessionFactory'
+[2015-08-05 17:56:19] [main:5580-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:19] [main:5580-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:19] [main:5658-DEBUG] Invoking afterPropertiesSet() on bean with name 'hibernateTemplate'
+[2015-08-05 17:56:19] [main:5658-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:19] [main:5658-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:19] [main:5705-DEBUG] Finished creating instance of bean 'hibernateTemplate'
+[2015-08-05 17:56:19] [main:5705-DEBUG] Autowiring by type from bean name 'baseDao' to bean named 'hibernateTemplate'
+[2015-08-05 17:56:19] [main:5705-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:19] [main:5705-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:19] [main:5721-DEBUG] Finished creating instance of bean 'baseDao'
+[2015-08-05 17:56:19] [main:5721-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2015-08-05 17:56:19] [main:5721-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2015-08-05 17:56:19] [main:5721-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2015-08-05 17:56:19] [main:5721-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2015-08-05 17:56:19] [main:5721-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2015-08-05 17:56:19] [main:5721-DEBUG] Creating shared instance of singleton bean 'commonService'
+[2015-08-05 17:56:19] [main:5721-DEBUG] Creating instance of bean 'commonService'
+[2015-08-05 17:56:19] [main:5721-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:19] [main:5721-DEBUG] Registered injected element on class [com.serviceimpl.CommonServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.CommonServiceImpl.baseDao
+[2015-08-05 17:56:19] [main:5721-DEBUG] Eagerly caching bean 'commonService' to allow for resolving potential circular references
+[2015-08-05 17:56:19] [main:5736-DEBUG] Processing injected method of bean 'commonService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.CommonServiceImpl.baseDao
+[2015-08-05 17:56:19] [main:5736-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 17:56:19] [main:5736-DEBUG] Autowiring by type from bean name 'commonService' to bean named 'baseDao'
+[2015-08-05 17:56:19] [main:5736-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:19] [main:5736-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:19] [main:5736-DEBUG] Finished creating instance of bean 'commonService'
+[2015-08-05 17:56:19] [main:5736-DEBUG] Creating shared instance of singleton bean 'echarService'
+[2015-08-05 17:56:19] [main:5736-DEBUG] Creating instance of bean 'echarService'
+[2015-08-05 17:56:19] [main:5736-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:19] [main:5736-DEBUG] Registered injected element on class [com.serviceimpl.ECharServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.ECharServiceImpl.baseDao
+[2015-08-05 17:56:19] [main:5736-DEBUG] Eagerly caching bean 'echarService' to allow for resolving potential circular references
+[2015-08-05 17:56:19] [main:5736-DEBUG] Processing injected method of bean 'echarService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.ECharServiceImpl.baseDao
+[2015-08-05 17:56:19] [main:5736-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 17:56:19] [main:5736-DEBUG] Autowiring by type from bean name 'echarService' to bean named 'baseDao'
+[2015-08-05 17:56:19] [main:5736-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:19] [main:5752-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:19] [main:5752-DEBUG] Finished creating instance of bean 'echarService'
+[2015-08-05 17:56:19] [main:5752-DEBUG] Creating shared instance of singleton bean 'menuService'
+[2015-08-05 17:56:19] [main:5752-DEBUG] Creating instance of bean 'menuService'
+[2015-08-05 17:56:19] [main:5752-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:19] [main:5752-DEBUG] Registered injected element on class [com.serviceimpl.MenuServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.MenuServiceImpl.baseDao
+[2015-08-05 17:56:19] [main:5752-DEBUG] Eagerly caching bean 'menuService' to allow for resolving potential circular references
+[2015-08-05 17:56:19] [main:5752-DEBUG] Processing injected method of bean 'menuService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.MenuServiceImpl.baseDao
+[2015-08-05 17:56:19] [main:5752-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 17:56:19] [main:5752-DEBUG] Autowiring by type from bean name 'menuService' to bean named 'baseDao'
+[2015-08-05 17:56:19] [main:5752-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:19] [main:5752-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:19] [main:5752-DEBUG] Finished creating instance of bean 'menuService'
+[2015-08-05 17:56:20] [main:5767-DEBUG] Creating shared instance of singleton bean 'roleService'
+[2015-08-05 17:56:20] [main:5767-DEBUG] Creating instance of bean 'roleService'
+[2015-08-05 17:56:20] [main:5767-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:20] [main:5767-DEBUG] Registered injected element on class [com.serviceimpl.RoleServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.RoleServiceImpl.baseDao
+[2015-08-05 17:56:20] [main:5767-DEBUG] Eagerly caching bean 'roleService' to allow for resolving potential circular references
+[2015-08-05 17:56:20] [main:5767-DEBUG] Processing injected method of bean 'roleService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.RoleServiceImpl.baseDao
+[2015-08-05 17:56:20] [main:5767-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 17:56:20] [main:5767-DEBUG] Autowiring by type from bean name 'roleService' to bean named 'baseDao'
+[2015-08-05 17:56:20] [main:5767-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:20] [main:5767-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:20] [main:5767-DEBUG] Finished creating instance of bean 'roleService'
+[2015-08-05 17:56:20] [main:5767-DEBUG] Creating shared instance of singleton bean 'systemService'
+[2015-08-05 17:56:20] [main:5767-DEBUG] Creating instance of bean 'systemService'
+[2015-08-05 17:56:20] [main:5767-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:20] [main:5767-DEBUG] Registered injected element on class [com.serviceimpl.SystemServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.SystemServiceImpl.baseDao
+[2015-08-05 17:56:20] [main:5767-DEBUG] Eagerly caching bean 'systemService' to allow for resolving potential circular references
+[2015-08-05 17:56:20] [main:5783-DEBUG] Processing injected method of bean 'systemService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.SystemServiceImpl.baseDao
+[2015-08-05 17:56:20] [main:5783-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 17:56:20] [main:5783-DEBUG] Autowiring by type from bean name 'systemService' to bean named 'baseDao'
+[2015-08-05 17:56:20] [main:5783-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:20] [main:5783-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:20] [main:5783-DEBUG] Finished creating instance of bean 'systemService'
+[2015-08-05 17:56:20] [main:5783-DEBUG] Creating shared instance of singleton bean 'userService'
+[2015-08-05 17:56:20] [main:5783-DEBUG] Creating instance of bean 'userService'
+[2015-08-05 17:56:20] [main:5783-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:20] [main:5799-DEBUG] Registered injected element on class [com.serviceimpl.UserServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.UserServiceImpl.baseDao
+[2015-08-05 17:56:20] [main:5799-DEBUG] Eagerly caching bean 'userService' to allow for resolving potential circular references
+[2015-08-05 17:56:20] [main:5799-DEBUG] Processing injected method of bean 'userService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.UserServiceImpl.baseDao
+[2015-08-05 17:56:20] [main:5799-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 17:56:20] [main:5799-DEBUG] Autowiring by type from bean name 'userService' to bean named 'baseDao'
+[2015-08-05 17:56:20] [main:5799-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:20] [main:5799-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:20] [main:5799-DEBUG] Finished creating instance of bean 'userService'
+[2015-08-05 17:56:20] [main:5799-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[2015-08-05 17:56:20] [main:5799-DEBUG] Returning cached instance of singleton bean 'dataSource'
+[2015-08-05 17:56:20] [main:5799-DEBUG] Returning cached instance of singleton bean 'sessionFactory'
+[2015-08-05 17:56:20] [main:5799-DEBUG] Returning cached instance of singleton bean 'hibernateTemplate'
+[2015-08-05 17:56:20] [main:5799-DEBUG] Creating shared instance of singleton bean 'transactionManager'
+[2015-08-05 17:56:20] [main:5799-DEBUG] Creating instance of bean 'transactionManager'
+[2015-08-05 17:56:20] [main:5799-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:20] [main:5830-DEBUG] Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+[2015-08-05 17:56:20] [main:5830-DEBUG] Returning cached instance of singleton bean 'sessionFactory'
+[2015-08-05 17:56:20] [main:5830-DEBUG] Invoking afterPropertiesSet() on bean with name 'transactionManager'
+[2015-08-05 17:56:20] [main:5861-INFO] Using DataSource [{
+	CreateTime:"2015-08-05 17:56:16",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:85113564, ConnectTime:"2015-08-05 17:56:18", UseCount:2, LastActiveTime:"2015-08-05 17:56:19"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[2015-08-05 17:56:20] [main:5861-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:20] [main:5861-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:20] [main:5877-DEBUG] Finished creating instance of bean 'transactionManager'
+[2015-08-05 17:56:20] [main:5877-DEBUG] Creating shared instance of singleton bean 'transactionAdvice'
+[2015-08-05 17:56:20] [main:5877-DEBUG] Creating instance of bean 'transactionAdvice'
+[2015-08-05 17:56:20] [main:5877-DEBUG] Eagerly caching bean 'transactionAdvice' to allow for resolving potential circular references
+[2015-08-05 17:56:20] [main:5877-DEBUG] Returning cached instance of singleton bean 'transactionManager'
+[2015-08-05 17:56:20] [main:5877-DEBUG] Creating instance of bean '(inner bean)'
+[2015-08-05 17:56:20] [main:5877-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:20] [main:5893-DEBUG] Adding transactional method [add*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 17:56:20] [main:5893-DEBUG] Adding transactional method [save*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 17:56:20] [main:5893-DEBUG] Adding transactional method [del*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 17:56:20] [main:5893-DEBUG] Adding transactional method [update*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 17:56:20] [main:5893-DEBUG] Adding transactional method [modify*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 17:56:20] [main:5893-DEBUG] Adding transactional method [remove*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 17:56:20] [main:5893-DEBUG] Adding transactional method [get*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 17:56:20] [main:5893-DEBUG] Adding transactional method [find*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 17:56:20] [main:5893-DEBUG] Adding transactional method [load*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 17:56:20] [main:5893-DEBUG] Adding transactional method [search*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 17:56:20] [main:5893-DEBUG] Adding transactional method [*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 17:56:20] [main:5893-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:20] [main:5893-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:20] [main:5893-DEBUG] Finished creating instance of bean '(inner bean)'
+[2015-08-05 17:56:20] [main:5893-DEBUG] Invoking afterPropertiesSet() on bean with name 'transactionAdvice'
+[2015-08-05 17:56:20] [main:5893-DEBUG] Finished creating instance of bean 'transactionAdvice'
+[2015-08-05 17:56:20] [main:5893-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2015-08-05 17:56:20] [main:5893-DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+[2015-08-05 17:56:20] [main:5893-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2015-08-05 17:56:20] [main:5908-DEBUG] Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@68833763]
+[2015-08-05 17:56:20] [main:5908-DEBUG] Returning cached instance of singleton bean 'lifecycleProcessor'
+[2015-08-05 17:56:20] [main:5908-DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+[2015-08-05 17:56:20] [main:5908-DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+[2015-08-05 17:56:20] [main:5908-DEBUG] Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+[2015-08-05 17:56:20] [main:5908-DEBUG] Returning cached instance of singleton bean 'userService'
+[2015-08-05 17:56:20] [main:5908-DEBUG] Returning cached instance of singleton bean 'echarService'
+[2015-08-05 18:08:05] [main:0-DEBUG] Initializing new StandardEnvironment
+[2015-08-05 18:08:05] [main:20-DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+[2015-08-05 18:08:05] [main:20-DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+[2015-08-05 18:08:05] [main:20-DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2015-08-05 18:08:05] [main:36-INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@548ccbe7: startup date [Wed Aug 05 18:08:05 CST 2015]; root of context hierarchy
+[2015-08-05 18:08:05] [main:145-DEBUG] Initializing new StandardEnvironment
+[2015-08-05 18:08:05] [main:145-DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+[2015-08-05 18:08:05] [main:145-DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+[2015-08-05 18:08:05] [main:145-DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2015-08-05 18:08:05] [main:176-INFO] Loading XML bean definitions from class path resource [spring-applicationContext.xml]
+[2015-08-05 18:08:05] [main:223-DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[2015-08-05 18:08:05] [main:302-DEBUG] Loading schema mappings from [META-INF/spring.schemas]
+[2015-08-05 18:08:05] [main:317-DEBUG] Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.alibaba.com/schema/stat.xsd=META-INF/stat.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+[2015-08-05 18:08:05] [main:317-DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+[2015-08-05 18:08:05] [main:442-DEBUG] Found XML schema [http://www.springframework.org/schema/context/spring-context-3.2.xsd] in classpath: org/springframework/context/config/spring-context-3.2.xsd
+[2015-08-05 18:08:05] [main:442-DEBUG] Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.2.xsd
+[2015-08-05 18:08:05] [main:489-DEBUG] Loading bean definitions
+[2015-08-05 18:08:06] [main:520-DEBUG] Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.alibaba.com/schema/stat=com.alibaba.druid.support.spring.stat.config.DruidStatNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+[2015-08-05 18:08:06] [main:552-DEBUG] Initializing new StandardEnvironment
+[2015-08-05 18:08:06] [main:552-DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+[2015-08-05 18:08:06] [main:552-DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+[2015-08-05 18:08:06] [main:552-DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2015-08-05 18:08:06] [main:583-DEBUG] Looking for matching resources in directory tree [F:\workspace\SSHMJ\target\classes\com\dao]
+[2015-08-05 18:08:06] [main:583-DEBUG] Searching directory [F:\workspace\SSHMJ\target\classes\com\dao] for files matching pattern [F:/workspace/SSHMJ/target/classes/com/dao/**/*.class]
+[2015-08-05 18:08:06] [main:583-DEBUG] Resolved location pattern [classpath*:com/dao/**/*.class] to resources [file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDao.class], file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDaoImpl$1.class], file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDaoImpl$2.class], file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDaoImpl.class]]
+[2015-08-05 18:08:06] [main:676-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDaoImpl.class]
+[2015-08-05 18:08:06] [main:723-DEBUG] Initializing new StandardEnvironment
+[2015-08-05 18:08:06] [main:723-DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+[2015-08-05 18:08:06] [main:723-DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+[2015-08-05 18:08:06] [main:723-DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2015-08-05 18:08:06] [main:723-DEBUG] Looking for matching resources in directory tree [F:\workspace\SSHMJ\target\classes\com\serviceimpl]
+[2015-08-05 18:08:06] [main:723-DEBUG] Searching directory [F:\workspace\SSHMJ\target\classes\com\serviceimpl] for files matching pattern [F:/workspace/SSHMJ/target/classes/com/serviceimpl/**/*.class]
+[2015-08-05 18:08:06] [main:723-DEBUG] Resolved location pattern [classpath*:com/serviceimpl/**/*.class] to resources [file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\CommonServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\ECharServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\MenuServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\RoleServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\SystemServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\UserServiceImpl.class]]
+[2015-08-05 18:08:06] [main:739-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\CommonServiceImpl.class]
+[2015-08-05 18:08:06] [main:739-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\ECharServiceImpl.class]
+[2015-08-05 18:08:06] [main:739-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\MenuServiceImpl.class]
+[2015-08-05 18:08:06] [main:739-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\RoleServiceImpl.class]
+[2015-08-05 18:08:06] [main:739-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\SystemServiceImpl.class]
+[2015-08-05 18:08:06] [main:739-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\UserServiceImpl.class]
+[2015-08-05 18:08:06] [main:755-DEBUG] Loaded 15 bean definitions from location pattern [classpath:spring-applicationContext.xml]
+[2015-08-05 18:08:06] [main:755-INFO] Loading XML bean definitions from class path resource [spring-applicationContext-datasource.xml]
+[2015-08-05 18:08:06] [main:755-DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[2015-08-05 18:08:06] [main:755-DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+[2015-08-05 18:08:06] [main:817-DEBUG] Found XML schema [http://www.springframework.org/schema/context/spring-context-3.2.xsd] in classpath: org/springframework/context/config/spring-context-3.2.xsd
+[2015-08-05 18:08:06] [main:833-DEBUG] Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.2.xsd
+[2015-08-05 18:08:06] [main:848-DEBUG] Found XML schema [http://www.springframework.org/schema/tx/spring-tx-3.2.xsd] in classpath: org/springframework/transaction/config/spring-tx-3.2.xsd
+[2015-08-05 18:08:06] [main:864-DEBUG] Loading bean definitions
+[2015-08-05 18:08:06] [main:864-DEBUG] No XML 'id' specified - using 'dataSource' as bean name and [] as aliases
+[2015-08-05 18:08:06] [main:927-DEBUG] Loaded 6 bean definitions from location pattern [classpath:spring-applicationContext-datasource.xml]
+[2015-08-05 18:08:06] [main:927-DEBUG] Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@548ccbe7: org.springframework.beans.factory.support.DefaultListableBeanFactory@401dc421: defining beans [baseDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,commonService,echarService,menuService,roleService,systemService,userService,testSpringAction,testEChartAction,roleAction,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sessionFactory,hibernateTemplate,transactionManager,transactionAdvice]; root of factory hierarchy
+[2015-08-05 18:08:06] [main:1005-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2015-08-05 18:08:06] [main:1005-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2015-08-05 18:08:06] [main:1052-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 18:08:06] [main:1056-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2015-08-05 18:08:06] [main:1150-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[2015-08-05 18:08:06] [main:1150-DEBUG] Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[2015-08-05 18:08:06] [main:1166-DEBUG] Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+[2015-08-05 18:08:06] [main:1228-DEBUG] Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[2015-08-05 18:08:06] [main:1228-DEBUG] Adding [environmentProperties] PropertySource with lowest search precedence
+[2015-08-05 18:08:06] [main:1228-INFO] Loading properties file from class path resource [jdbc.properties]
+[2015-08-05 18:08:06] [main:1228-DEBUG] Adding [localProperties] PropertySource with lowest search precedence
+[2015-08-05 18:08:06] [main:1228-DEBUG] Searching for key 'jdbc_url' in [environmentProperties]
+[2015-08-05 18:08:06] [main:1228-DEBUG] Searching for key 'jdbc_url' in [systemProperties]
+[2015-08-05 18:08:06] [main:1228-DEBUG] Searching for key 'jdbc_url' in [systemEnvironment]
+[2015-08-05 18:08:06] [main:1228-DEBUG] Could not find key 'jdbc_url' in any property source. Returning [null]
+[2015-08-05 18:08:06] [main:1228-DEBUG] Searching for key 'jdbc_url' in [localProperties]
+[2015-08-05 18:08:06] [main:1228-DEBUG] Found key 'jdbc_url' in [localProperties] with type [String] and value 'jdbc:mysql://localhost:3306/testHibernate?useUnicode=true&characterEncoding=UTF-8'
+[2015-08-05 18:08:06] [main:1244-DEBUG] Searching for key 'jdbc_username' in [environmentProperties]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Searching for key 'jdbc_username' in [systemProperties]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Searching for key 'jdbc_username' in [systemEnvironment]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Could not find key 'jdbc_username' in any property source. Returning [null]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Searching for key 'jdbc_username' in [localProperties]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Found key 'jdbc_username' in [localProperties] with type [String] and value 'root'
+[2015-08-05 18:08:06] [main:1244-DEBUG] Searching for key 'jdbc_password' in [environmentProperties]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Searching for key 'jdbc_password' in [systemProperties]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Searching for key 'jdbc_password' in [systemEnvironment]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Could not find key 'jdbc_password' in any property source. Returning [null]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Searching for key 'jdbc_password' in [localProperties]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Found key 'jdbc_password' in [localProperties] with type [String] and value '1211119'
+[2015-08-05 18:08:06] [main:1244-DEBUG] Searching for key 'validationQuery' in [environmentProperties]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Searching for key 'validationQuery' in [systemProperties]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Searching for key 'validationQuery' in [systemEnvironment]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Could not find key 'validationQuery' in any property source. Returning [null]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Searching for key 'validationQuery' in [localProperties]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Found key 'validationQuery' in [localProperties] with type [String] and value 'SELECT 1'
+[2015-08-05 18:08:06] [main:1244-DEBUG] Searching for key 'hibernate.dialect' in [environmentProperties]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Searching for key 'hibernate.dialect' in [systemProperties]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Searching for key 'hibernate.dialect' in [systemEnvironment]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Could not find key 'hibernate.dialect' in any property source. Returning [null]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Searching for key 'hibernate.dialect' in [localProperties]
+[2015-08-05 18:08:06] [main:1244-DEBUG] Found key 'hibernate.dialect' in [localProperties] with type [String] and value 'org.hibernate.dialect.MySQLDialect'
+[2015-08-05 18:08:06] [main:1259-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2015-08-05 18:08:06] [main:1259-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2015-08-05 18:08:06] [main:1259-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 18:08:06] [main:1259-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2015-08-05 18:08:06] [main:1259-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2015-08-05 18:08:06] [main:1259-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2015-08-05 18:08:06] [main:1259-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 18:08:06] [main:1259-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2015-08-05 18:08:06] [main:1259-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2015-08-05 18:08:06] [main:1259-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2015-08-05 18:08:06] [main:1275-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 18:08:06] [main:1275-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2015-08-05 18:08:06] [main:1275-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2015-08-05 18:08:06] [main:1275-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2015-08-05 18:08:06] [main:1275-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 18:08:06] [main:1275-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2015-08-05 18:08:06] [main:1275-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2015-08-05 18:08:06] [main:1275-DEBUG] Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2015-08-05 18:08:06] [main:1275-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+[2015-08-05 18:08:06] [main:1275-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2015-08-05 18:08:06] [main:1291-DEBUG] Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@2479819a]
+[2015-08-05 18:08:06] [main:1291-DEBUG] Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@57697e2a]
+[2015-08-05 18:08:06] [main:1306-INFO] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@401dc421: defining beans [baseDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,commonService,echarService,menuService,roleService,systemService,userService,testSpringAction,testEChartAction,roleAction,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sessionFactory,hibernateTemplate,transactionManager,transactionAdvice,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[2015-08-05 18:08:06] [main:1306-DEBUG] Creating shared instance of singleton bean 'baseDao'
+[2015-08-05 18:08:06] [main:1306-DEBUG] Creating instance of bean 'baseDao'
+[2015-08-05 18:08:06] [main:1338-DEBUG] Registered injected element on class [com.dao.BaseDaoImpl]: AutowiredFieldElement for org.springframework.orm.hibernate3.HibernateTemplate com.dao.BaseDaoImpl.hibernateTemplate
+[2015-08-05 18:08:06] [main:1338-DEBUG] Eagerly caching bean 'baseDao' to allow for resolving potential circular references
+[2015-08-05 18:08:06] [main:1338-DEBUG] Processing injected method of bean 'baseDao': AutowiredFieldElement for org.springframework.orm.hibernate3.HibernateTemplate com.dao.BaseDaoImpl.hibernateTemplate
+[2015-08-05 18:08:06] [main:1369-DEBUG] Creating shared instance of singleton bean 'hibernateTemplate'
+[2015-08-05 18:08:06] [main:1369-DEBUG] Creating instance of bean 'hibernateTemplate'
+[2015-08-05 18:08:06] [main:1400-DEBUG] Eagerly caching bean 'hibernateTemplate' to allow for resolving potential circular references
+[2015-08-05 18:08:06] [main:1447-DEBUG] Creating shared instance of singleton bean 'sessionFactory'
+[2015-08-05 18:08:06] [main:1447-DEBUG] Creating instance of bean 'sessionFactory'
+[2015-08-05 18:08:06] [main:1478-DEBUG] Eagerly caching bean 'sessionFactory' to allow for resolving potential circular references
+[2015-08-05 18:08:07] [main:1509-DEBUG] Creating shared instance of singleton bean 'dataSource'
+[2015-08-05 18:08:07] [main:1509-DEBUG] Creating instance of bean 'dataSource'
+[2015-08-05 18:08:07] [main:1588-DEBUG] Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+[2015-08-05 18:08:07] [main:1682-ERROR] maxIdle is deprecated
+[2015-08-05 18:08:07] [main:1745-DEBUG] Invoking init method  'init' on bean with name 'dataSource'
+[2015-08-05 18:08:07] [main:1901-INFO] {dataSource-1} inited
+[2015-08-05 18:08:07] [main:1901-DEBUG] Finished creating instance of bean 'dataSource'
+[2015-08-05 18:08:07] [main:1916-DEBUG] Invoking afterPropertiesSet() on bean with name 'sessionFactory'
+[2015-08-05 18:08:07] [main:2376-DEBUG] Looking for matching resources in directory tree [F:\workspace\SSHMJ\target\classes\com\orm]
+[2015-08-05 18:08:07] [main:2381-DEBUG] Searching directory [F:\workspace\SSHMJ\target\classes\com\orm] for files matching pattern [F:/workspace/SSHMJ/target/classes/com/orm/**/*.class]
+[2015-08-05 18:08:07] [main:2382-DEBUG] Resolved location pattern [classpath*:com/orm/**/*.class] to resources [file [F:\workspace\SSHMJ\target\classes\com\orm\ECharData.class], file [F:\workspace\SSHMJ\target\classes\com\orm\SystemMenu.class], file [F:\workspace\SSHMJ\target\classes\com\orm\SystemRole.class], file [F:\workspace\SSHMJ\target\classes\com\orm\SystemUser.class]]
+[2015-08-05 18:08:08] [main:2779-INFO] Building new Hibernate SessionFactory
+[2015-08-05 18:08:09] [main:4032-DEBUG] Finished creating instance of bean 'sessionFactory'
+[2015-08-05 18:08:09] [main:4042-DEBUG] Invoking afterPropertiesSet() on bean with name 'hibernateTemplate'
+[2015-08-05 18:08:09] [main:4042-DEBUG] Finished creating instance of bean 'hibernateTemplate'
+[2015-08-05 18:08:09] [main:4043-DEBUG] Autowiring by type from bean name 'baseDao' to bean named 'hibernateTemplate'
+[2015-08-05 18:08:09] [main:4043-DEBUG] Finished creating instance of bean 'baseDao'
+[2015-08-05 18:08:09] [main:4043-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2015-08-05 18:08:09] [main:4043-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2015-08-05 18:08:09] [main:4043-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2015-08-05 18:08:09] [main:4043-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2015-08-05 18:08:09] [main:4043-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2015-08-05 18:08:09] [main:4043-DEBUG] Creating shared instance of singleton bean 'commonService'
+[2015-08-05 18:08:09] [main:4043-DEBUG] Creating instance of bean 'commonService'
+[2015-08-05 18:08:09] [main:4043-DEBUG] Registered injected element on class [com.serviceimpl.CommonServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.CommonServiceImpl.baseDao
+[2015-08-05 18:08:09] [main:4043-DEBUG] Eagerly caching bean 'commonService' to allow for resolving potential circular references
+[2015-08-05 18:08:09] [main:4043-DEBUG] Processing injected method of bean 'commonService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.CommonServiceImpl.baseDao
+[2015-08-05 18:08:09] [main:4043-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 18:08:09] [main:4043-DEBUG] Autowiring by type from bean name 'commonService' to bean named 'baseDao'
+[2015-08-05 18:08:09] [main:4043-DEBUG] Finished creating instance of bean 'commonService'
+[2015-08-05 18:08:09] [main:4043-DEBUG] Creating shared instance of singleton bean 'echarService'
+[2015-08-05 18:08:09] [main:4043-DEBUG] Creating instance of bean 'echarService'
+[2015-08-05 18:08:09] [main:4043-DEBUG] Registered injected element on class [com.serviceimpl.ECharServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.ECharServiceImpl.baseDao
+[2015-08-05 18:08:09] [main:4043-DEBUG] Eagerly caching bean 'echarService' to allow for resolving potential circular references
+[2015-08-05 18:08:09] [main:4043-DEBUG] Processing injected method of bean 'echarService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.ECharServiceImpl.baseDao
+[2015-08-05 18:08:09] [main:4059-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 18:08:09] [main:4059-DEBUG] Autowiring by type from bean name 'echarService' to bean named 'baseDao'
+[2015-08-05 18:08:09] [main:4059-DEBUG] Finished creating instance of bean 'echarService'
+[2015-08-05 18:08:09] [main:4059-DEBUG] Creating shared instance of singleton bean 'menuService'
+[2015-08-05 18:08:09] [main:4059-DEBUG] Creating instance of bean 'menuService'
+[2015-08-05 18:08:09] [main:4059-DEBUG] Registered injected element on class [com.serviceimpl.MenuServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.MenuServiceImpl.baseDao
+[2015-08-05 18:08:09] [main:4059-DEBUG] Eagerly caching bean 'menuService' to allow for resolving potential circular references
+[2015-08-05 18:08:09] [main:4059-DEBUG] Processing injected method of bean 'menuService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.MenuServiceImpl.baseDao
+[2015-08-05 18:08:09] [main:4059-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 18:08:09] [main:4059-DEBUG] Autowiring by type from bean name 'menuService' to bean named 'baseDao'
+[2015-08-05 18:08:09] [main:4059-DEBUG] Finished creating instance of bean 'menuService'
+[2015-08-05 18:08:09] [main:4059-DEBUG] Creating shared instance of singleton bean 'roleService'
+[2015-08-05 18:08:09] [main:4059-DEBUG] Creating instance of bean 'roleService'
+[2015-08-05 18:08:09] [main:4059-DEBUG] Registered injected element on class [com.serviceimpl.RoleServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.RoleServiceImpl.baseDao
+[2015-08-05 18:08:09] [main:4059-DEBUG] Eagerly caching bean 'roleService' to allow for resolving potential circular references
+[2015-08-05 18:08:09] [main:4059-DEBUG] Processing injected method of bean 'roleService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.RoleServiceImpl.baseDao
+[2015-08-05 18:08:09] [main:4059-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 18:08:09] [main:4059-DEBUG] Autowiring by type from bean name 'roleService' to bean named 'baseDao'
+[2015-08-05 18:08:09] [main:4059-DEBUG] Finished creating instance of bean 'roleService'
+[2015-08-05 18:08:09] [main:4059-DEBUG] Creating shared instance of singleton bean 'systemService'
+[2015-08-05 18:08:09] [main:4059-DEBUG] Creating instance of bean 'systemService'
+[2015-08-05 18:08:09] [main:4074-DEBUG] Registered injected element on class [com.serviceimpl.SystemServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.SystemServiceImpl.baseDao
+[2015-08-05 18:08:09] [main:4074-DEBUG] Eagerly caching bean 'systemService' to allow for resolving potential circular references
+[2015-08-05 18:08:09] [main:4074-DEBUG] Processing injected method of bean 'systemService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.SystemServiceImpl.baseDao
+[2015-08-05 18:08:09] [main:4074-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 18:08:09] [main:4074-DEBUG] Autowiring by type from bean name 'systemService' to bean named 'baseDao'
+[2015-08-05 18:08:09] [main:4074-DEBUG] Finished creating instance of bean 'systemService'
+[2015-08-05 18:08:09] [main:4074-DEBUG] Creating shared instance of singleton bean 'userService'
+[2015-08-05 18:08:09] [main:4074-DEBUG] Creating instance of bean 'userService'
+[2015-08-05 18:08:09] [main:4074-DEBUG] Registered injected element on class [com.serviceimpl.UserServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.UserServiceImpl.baseDao
+[2015-08-05 18:08:09] [main:4074-DEBUG] Eagerly caching bean 'userService' to allow for resolving potential circular references
+[2015-08-05 18:08:09] [main:4090-DEBUG] Processing injected method of bean 'userService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.UserServiceImpl.baseDao
+[2015-08-05 18:08:09] [main:4090-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 18:08:09] [main:4090-DEBUG] Autowiring by type from bean name 'userService' to bean named 'baseDao'
+[2015-08-05 18:08:09] [main:4090-DEBUG] Finished creating instance of bean 'userService'
+[2015-08-05 18:08:09] [main:4090-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[2015-08-05 18:08:09] [main:4090-DEBUG] Returning cached instance of singleton bean 'dataSource'
+[2015-08-05 18:08:09] [main:4090-DEBUG] Returning cached instance of singleton bean 'sessionFactory'
+[2015-08-05 18:08:09] [main:4090-DEBUG] Returning cached instance of singleton bean 'hibernateTemplate'
+[2015-08-05 18:08:09] [main:4090-DEBUG] Creating shared instance of singleton bean 'transactionManager'
+[2015-08-05 18:08:09] [main:4090-DEBUG] Creating instance of bean 'transactionManager'
+[2015-08-05 18:08:09] [main:4105-DEBUG] Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+[2015-08-05 18:08:09] [main:4121-DEBUG] Returning cached instance of singleton bean 'sessionFactory'
+[2015-08-05 18:08:09] [main:4121-DEBUG] Invoking afterPropertiesSet() on bean with name 'transactionManager'
+[2015-08-05 18:08:09] [main:4137-INFO] Using DataSource [{
+	CreateTime:"2015-08-05 18:08:07",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:1805317862, ConnectTime:"2015-08-05 18:08:08", UseCount:2, LastActiveTime:"2015-08-05 18:08:09"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[2015-08-05 18:08:09] [main:4137-DEBUG] Finished creating instance of bean 'transactionManager'
+[2015-08-05 18:08:09] [main:4137-DEBUG] Creating shared instance of singleton bean 'transactionAdvice'
+[2015-08-05 18:08:09] [main:4137-DEBUG] Creating instance of bean 'transactionAdvice'
+[2015-08-05 18:08:09] [main:4137-DEBUG] Eagerly caching bean 'transactionAdvice' to allow for resolving potential circular references
+[2015-08-05 18:08:09] [main:4152-DEBUG] Returning cached instance of singleton bean 'transactionManager'
+[2015-08-05 18:08:09] [main:4152-DEBUG] Creating instance of bean '(inner bean)'
+[2015-08-05 18:08:09] [main:4152-DEBUG] Adding transactional method [add*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 18:08:09] [main:4152-DEBUG] Adding transactional method [save*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 18:08:09] [main:4152-DEBUG] Adding transactional method [del*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 18:08:09] [main:4152-DEBUG] Adding transactional method [update*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 18:08:09] [main:4152-DEBUG] Adding transactional method [modify*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 18:08:09] [main:4152-DEBUG] Adding transactional method [remove*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 18:08:09] [main:4152-DEBUG] Adding transactional method [get*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 18:08:09] [main:4152-DEBUG] Adding transactional method [find*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 18:08:09] [main:4152-DEBUG] Adding transactional method [load*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 18:08:09] [main:4152-DEBUG] Adding transactional method [search*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 18:08:09] [main:4152-DEBUG] Adding transactional method [*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 18:08:09] [main:4152-DEBUG] Finished creating instance of bean '(inner bean)'
+[2015-08-05 18:08:09] [main:4168-DEBUG] Invoking afterPropertiesSet() on bean with name 'transactionAdvice'
+[2015-08-05 18:08:09] [main:4168-DEBUG] Finished creating instance of bean 'transactionAdvice'
+[2015-08-05 18:08:09] [main:4168-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2015-08-05 18:08:09] [main:4168-DEBUG] Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@36f1a618]
+[2015-08-05 18:08:09] [main:4168-DEBUG] Returning cached instance of singleton bean 'lifecycleProcessor'
+[2015-08-05 18:08:09] [main:4168-DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+[2015-08-05 18:08:09] [main:4168-DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+[2015-08-05 18:08:09] [main:4168-DEBUG] Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+[2015-08-05 18:08:09] [main:4168-DEBUG] Returning cached instance of singleton bean 'userService'
+[2015-08-05 18:08:09] [main:4168-DEBUG] Returning cached instance of singleton bean 'echarService'
+[2015-08-05 18:09:45] [main:0-DEBUG] Initializing new StandardEnvironment
+[2015-08-05 18:09:45] [main:22-DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+[2015-08-05 18:09:45] [main:22-DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+[2015-08-05 18:09:45] [main:22-DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2015-08-05 18:09:45] [main:37-INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@679ed60e: startup date [Wed Aug 05 18:09:45 CST 2015]; root of context hierarchy
+[2015-08-05 18:09:45] [main:147-DEBUG] Initializing new StandardEnvironment
+[2015-08-05 18:09:45] [main:147-DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+[2015-08-05 18:09:45] [main:147-DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+[2015-08-05 18:09:45] [main:147-DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2015-08-05 18:09:45] [main:178-INFO] Loading XML bean definitions from class path resource [spring-applicationContext.xml]
+[2015-08-05 18:09:45] [main:225-DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[2015-08-05 18:09:45] [main:303-DEBUG] Loading schema mappings from [META-INF/spring.schemas]
+[2015-08-05 18:09:45] [main:319-DEBUG] Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.alibaba.com/schema/stat.xsd=META-INF/stat.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+[2015-08-05 18:09:45] [main:334-DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+[2015-08-05 18:09:45] [main:444-DEBUG] Found XML schema [http://www.springframework.org/schema/context/spring-context-3.2.xsd] in classpath: org/springframework/context/config/spring-context-3.2.xsd
+[2015-08-05 18:09:45] [main:459-DEBUG] Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.2.xsd
+[2015-08-05 18:09:45] [main:491-DEBUG] Loading bean definitions
+[2015-08-05 18:09:45] [main:522-DEBUG] Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.alibaba.com/schema/stat=com.alibaba.druid.support.spring.stat.config.DruidStatNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+[2015-08-05 18:09:45] [main:553-DEBUG] Initializing new StandardEnvironment
+[2015-08-05 18:09:45] [main:553-DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+[2015-08-05 18:09:45] [main:553-DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+[2015-08-05 18:09:45] [main:553-DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2015-08-05 18:09:45] [main:584-DEBUG] Looking for matching resources in directory tree [F:\workspace\SSHMJ\target\classes\com\dao]
+[2015-08-05 18:09:45] [main:584-DEBUG] Searching directory [F:\workspace\SSHMJ\target\classes\com\dao] for files matching pattern [F:/workspace/SSHMJ/target/classes/com/dao/**/*.class]
+[2015-08-05 18:09:45] [main:584-DEBUG] Resolved location pattern [classpath*:com/dao/**/*.class] to resources [file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDao.class], file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDaoImpl$1.class], file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDaoImpl$2.class], file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDaoImpl.class]]
+[2015-08-05 18:09:46] [main:678-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDaoImpl.class]
+[2015-08-05 18:09:46] [main:725-DEBUG] Initializing new StandardEnvironment
+[2015-08-05 18:09:46] [main:725-DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+[2015-08-05 18:09:46] [main:725-DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+[2015-08-05 18:09:46] [main:725-DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2015-08-05 18:09:46] [main:725-DEBUG] Looking for matching resources in directory tree [F:\workspace\SSHMJ\target\classes\com\serviceimpl]
+[2015-08-05 18:09:46] [main:725-DEBUG] Searching directory [F:\workspace\SSHMJ\target\classes\com\serviceimpl] for files matching pattern [F:/workspace/SSHMJ/target/classes/com/serviceimpl/**/*.class]
+[2015-08-05 18:09:46] [main:725-DEBUG] Resolved location pattern [classpath*:com/serviceimpl/**/*.class] to resources [file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\CommonServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\ECharServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\MenuServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\RoleServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\SystemServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\UserServiceImpl.class]]
+[2015-08-05 18:09:46] [main:725-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\CommonServiceImpl.class]
+[2015-08-05 18:09:46] [main:725-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\ECharServiceImpl.class]
+[2015-08-05 18:09:46] [main:740-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\MenuServiceImpl.class]
+[2015-08-05 18:09:46] [main:740-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\RoleServiceImpl.class]
+[2015-08-05 18:09:46] [main:740-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\SystemServiceImpl.class]
+[2015-08-05 18:09:46] [main:740-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\UserServiceImpl.class]
+[2015-08-05 18:09:46] [main:740-DEBUG] Loaded 15 bean definitions from location pattern [classpath:spring-applicationContext.xml]
+[2015-08-05 18:09:46] [main:740-INFO] Loading XML bean definitions from class path resource [spring-applicationContext-datasource.xml]
+[2015-08-05 18:09:46] [main:756-DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[2015-08-05 18:09:46] [main:756-DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+[2015-08-05 18:09:46] [main:787-DEBUG] Found XML schema [http://www.springframework.org/schema/context/spring-context-3.2.xsd] in classpath: org/springframework/context/config/spring-context-3.2.xsd
+[2015-08-05 18:09:46] [main:803-DEBUG] Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.2.xsd
+[2015-08-05 18:09:46] [main:834-DEBUG] Found XML schema [http://www.springframework.org/schema/tx/spring-tx-3.2.xsd] in classpath: org/springframework/transaction/config/spring-tx-3.2.xsd
+[2015-08-05 18:09:46] [main:850-DEBUG] Loading bean definitions
+[2015-08-05 18:09:46] [main:850-DEBUG] No XML 'id' specified - using 'dataSource' as bean name and [] as aliases
+[2015-08-05 18:09:46] [main:896-DEBUG] Loaded 6 bean definitions from location pattern [classpath:spring-applicationContext-datasource.xml]
+[2015-08-05 18:09:46] [main:896-DEBUG] Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@679ed60e: org.springframework.beans.factory.support.DefaultListableBeanFactory@335920fa: defining beans [baseDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,commonService,echarService,menuService,roleService,systemService,userService,testSpringAction,testEChartAction,roleAction,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sessionFactory,hibernateTemplate,transactionManager,transactionAdvice]; root of factory hierarchy
+[2015-08-05 18:09:46] [main:990-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2015-08-05 18:09:46] [main:990-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2015-08-05 18:09:46] [main:1037-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 18:09:46] [main:1041-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2015-08-05 18:09:46] [main:1135-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[2015-08-05 18:09:46] [main:1151-DEBUG] Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[2015-08-05 18:09:46] [main:1151-DEBUG] Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+[2015-08-05 18:09:46] [main:1198-DEBUG] Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[2015-08-05 18:09:46] [main:1213-DEBUG] Adding [environmentProperties] PropertySource with lowest search precedence
+[2015-08-05 18:09:46] [main:1213-INFO] Loading properties file from class path resource [jdbc.properties]
+[2015-08-05 18:09:46] [main:1213-DEBUG] Adding [localProperties] PropertySource with lowest search precedence
+[2015-08-05 18:09:46] [main:1213-DEBUG] Searching for key 'jdbc_url' in [environmentProperties]
+[2015-08-05 18:09:46] [main:1213-DEBUG] Searching for key 'jdbc_url' in [systemProperties]
+[2015-08-05 18:09:46] [main:1213-DEBUG] Searching for key 'jdbc_url' in [systemEnvironment]
+[2015-08-05 18:09:46] [main:1213-DEBUG] Could not find key 'jdbc_url' in any property source. Returning [null]
+[2015-08-05 18:09:46] [main:1213-DEBUG] Searching for key 'jdbc_url' in [localProperties]
+[2015-08-05 18:09:46] [main:1213-DEBUG] Found key 'jdbc_url' in [localProperties] with type [String] and value 'jdbc:mysql://localhost:3306/testHibernate?useUnicode=true&characterEncoding=UTF-8'
+[2015-08-05 18:09:46] [main:1229-DEBUG] Searching for key 'jdbc_username' in [environmentProperties]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Searching for key 'jdbc_username' in [systemProperties]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Searching for key 'jdbc_username' in [systemEnvironment]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Could not find key 'jdbc_username' in any property source. Returning [null]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Searching for key 'jdbc_username' in [localProperties]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Found key 'jdbc_username' in [localProperties] with type [String] and value 'root'
+[2015-08-05 18:09:46] [main:1229-DEBUG] Searching for key 'jdbc_password' in [environmentProperties]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Searching for key 'jdbc_password' in [systemProperties]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Searching for key 'jdbc_password' in [systemEnvironment]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Could not find key 'jdbc_password' in any property source. Returning [null]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Searching for key 'jdbc_password' in [localProperties]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Found key 'jdbc_password' in [localProperties] with type [String] and value '1211119'
+[2015-08-05 18:09:46] [main:1229-DEBUG] Searching for key 'validationQuery' in [environmentProperties]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Searching for key 'validationQuery' in [systemProperties]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Searching for key 'validationQuery' in [systemEnvironment]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Could not find key 'validationQuery' in any property source. Returning [null]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Searching for key 'validationQuery' in [localProperties]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Found key 'validationQuery' in [localProperties] with type [String] and value 'SELECT 1'
+[2015-08-05 18:09:46] [main:1229-DEBUG] Searching for key 'hibernate.dialect' in [environmentProperties]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Searching for key 'hibernate.dialect' in [systemProperties]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Searching for key 'hibernate.dialect' in [systemEnvironment]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Could not find key 'hibernate.dialect' in any property source. Returning [null]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Searching for key 'hibernate.dialect' in [localProperties]
+[2015-08-05 18:09:46] [main:1229-DEBUG] Found key 'hibernate.dialect' in [localProperties] with type [String] and value 'org.hibernate.dialect.MySQLDialect'
+[2015-08-05 18:09:46] [main:1244-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2015-08-05 18:09:46] [main:1244-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2015-08-05 18:09:46] [main:1244-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 18:09:46] [main:1244-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2015-08-05 18:09:46] [main:1244-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2015-08-05 18:09:46] [main:1244-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2015-08-05 18:09:46] [main:1244-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 18:09:46] [main:1244-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2015-08-05 18:09:46] [main:1244-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2015-08-05 18:09:46] [main:1244-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2015-08-05 18:09:46] [main:1260-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 18:09:46] [main:1260-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2015-08-05 18:09:46] [main:1260-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2015-08-05 18:09:46] [main:1260-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2015-08-05 18:09:46] [main:1260-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 18:09:46] [main:1260-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2015-08-05 18:09:46] [main:1260-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2015-08-05 18:09:46] [main:1260-DEBUG] Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2015-08-05 18:09:46] [main:1260-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+[2015-08-05 18:09:46] [main:1260-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2015-08-05 18:09:46] [main:1260-DEBUG] Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@46a47031]
+[2015-08-05 18:09:46] [main:1276-DEBUG] Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@3fa8402a]
+[2015-08-05 18:09:46] [main:1276-INFO] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@335920fa: defining beans [baseDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,commonService,echarService,menuService,roleService,systemService,userService,testSpringAction,testEChartAction,roleAction,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sessionFactory,hibernateTemplate,transactionManager,transactionAdvice,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[2015-08-05 18:09:46] [main:1276-DEBUG] Creating shared instance of singleton bean 'baseDao'
+[2015-08-05 18:09:46] [main:1276-DEBUG] Creating instance of bean 'baseDao'
+[2015-08-05 18:09:46] [main:1307-DEBUG] Registered injected element on class [com.dao.BaseDaoImpl]: AutowiredFieldElement for org.springframework.orm.hibernate3.HibernateTemplate com.dao.BaseDaoImpl.hibernateTemplate
+[2015-08-05 18:09:46] [main:1307-DEBUG] Eagerly caching bean 'baseDao' to allow for resolving potential circular references
+[2015-08-05 18:09:46] [main:1323-DEBUG] Processing injected method of bean 'baseDao': AutowiredFieldElement for org.springframework.orm.hibernate3.HibernateTemplate com.dao.BaseDaoImpl.hibernateTemplate
+[2015-08-05 18:09:46] [main:1354-DEBUG] Creating shared instance of singleton bean 'hibernateTemplate'
+[2015-08-05 18:09:46] [main:1354-DEBUG] Creating instance of bean 'hibernateTemplate'
+[2015-08-05 18:09:46] [main:1385-DEBUG] Eagerly caching bean 'hibernateTemplate' to allow for resolving potential circular references
+[2015-08-05 18:09:46] [main:1432-DEBUG] Creating shared instance of singleton bean 'sessionFactory'
+[2015-08-05 18:09:46] [main:1432-DEBUG] Creating instance of bean 'sessionFactory'
+[2015-08-05 18:09:46] [main:1463-DEBUG] Eagerly caching bean 'sessionFactory' to allow for resolving potential circular references
+[2015-08-05 18:09:46] [main:1479-DEBUG] Creating shared instance of singleton bean 'dataSource'
+[2015-08-05 18:09:46] [main:1479-DEBUG] Creating instance of bean 'dataSource'
+[2015-08-05 18:09:46] [main:1573-DEBUG] Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+[2015-08-05 18:09:47] [main:1666-ERROR] maxIdle is deprecated
+[2015-08-05 18:09:47] [main:1729-DEBUG] Invoking init method  'init' on bean with name 'dataSource'
+[2015-08-05 18:09:47] [main:1885-INFO] {dataSource-1} inited
+[2015-08-05 18:09:47] [main:1885-DEBUG] Finished creating instance of bean 'dataSource'
+[2015-08-05 18:09:47] [main:1901-DEBUG] Invoking afterPropertiesSet() on bean with name 'sessionFactory'
+[2015-08-05 18:09:47] [main:2349-DEBUG] Looking for matching resources in directory tree [F:\workspace\SSHMJ\target\classes\com\orm]
+[2015-08-05 18:09:47] [main:2359-DEBUG] Searching directory [F:\workspace\SSHMJ\target\classes\com\orm] for files matching pattern [F:/workspace/SSHMJ/target/classes/com/orm/**/*.class]
+[2015-08-05 18:09:47] [main:2360-DEBUG] Resolved location pattern [classpath*:com/orm/**/*.class] to resources [file [F:\workspace\SSHMJ\target\classes\com\orm\ECharData.class], file [F:\workspace\SSHMJ\target\classes\com\orm\SystemMenu.class], file [F:\workspace\SSHMJ\target\classes\com\orm\SystemRole.class], file [F:\workspace\SSHMJ\target\classes\com\orm\SystemUser.class]]
+[2015-08-05 18:09:48] [main:2756-INFO] Building new Hibernate SessionFactory
+[2015-08-05 18:09:49] [main:4022-DEBUG] Finished creating instance of bean 'sessionFactory'
+[2015-08-05 18:09:49] [main:4038-DEBUG] Invoking afterPropertiesSet() on bean with name 'hibernateTemplate'
+[2015-08-05 18:09:49] [main:4038-DEBUG] Finished creating instance of bean 'hibernateTemplate'
+[2015-08-05 18:09:49] [main:4039-DEBUG] Autowiring by type from bean name 'baseDao' to bean named 'hibernateTemplate'
+[2015-08-05 18:09:49] [main:4039-DEBUG] Finished creating instance of bean 'baseDao'
+[2015-08-05 18:09:49] [main:4039-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2015-08-05 18:09:49] [main:4039-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2015-08-05 18:09:49] [main:4039-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2015-08-05 18:09:49] [main:4039-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2015-08-05 18:09:49] [main:4039-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2015-08-05 18:09:49] [main:4039-DEBUG] Creating shared instance of singleton bean 'commonService'
+[2015-08-05 18:09:49] [main:4039-DEBUG] Creating instance of bean 'commonService'
+[2015-08-05 18:09:49] [main:4039-DEBUG] Registered injected element on class [com.serviceimpl.CommonServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.CommonServiceImpl.baseDao
+[2015-08-05 18:09:49] [main:4039-DEBUG] Eagerly caching bean 'commonService' to allow for resolving potential circular references
+[2015-08-05 18:09:49] [main:4039-DEBUG] Processing injected method of bean 'commonService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.CommonServiceImpl.baseDao
+[2015-08-05 18:09:49] [main:4039-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 18:09:49] [main:4039-DEBUG] Autowiring by type from bean name 'commonService' to bean named 'baseDao'
+[2015-08-05 18:09:49] [main:4039-DEBUG] Finished creating instance of bean 'commonService'
+[2015-08-05 18:09:49] [main:4039-DEBUG] Creating shared instance of singleton bean 'echarService'
+[2015-08-05 18:09:49] [main:4039-DEBUG] Creating instance of bean 'echarService'
+[2015-08-05 18:09:49] [main:4039-DEBUG] Registered injected element on class [com.serviceimpl.ECharServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.ECharServiceImpl.baseDao
+[2015-08-05 18:09:49] [main:4039-DEBUG] Eagerly caching bean 'echarService' to allow for resolving potential circular references
+[2015-08-05 18:09:49] [main:4039-DEBUG] Processing injected method of bean 'echarService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.ECharServiceImpl.baseDao
+[2015-08-05 18:09:49] [main:4039-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 18:09:49] [main:4039-DEBUG] Autowiring by type from bean name 'echarService' to bean named 'baseDao'
+[2015-08-05 18:09:49] [main:4055-DEBUG] Finished creating instance of bean 'echarService'
+[2015-08-05 18:09:49] [main:4055-DEBUG] Creating shared instance of singleton bean 'menuService'
+[2015-08-05 18:09:49] [main:4055-DEBUG] Creating instance of bean 'menuService'
+[2015-08-05 18:09:49] [main:4055-DEBUG] Registered injected element on class [com.serviceimpl.MenuServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.MenuServiceImpl.baseDao
+[2015-08-05 18:09:49] [main:4055-DEBUG] Eagerly caching bean 'menuService' to allow for resolving potential circular references
+[2015-08-05 18:09:49] [main:4055-DEBUG] Processing injected method of bean 'menuService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.MenuServiceImpl.baseDao
+[2015-08-05 18:09:49] [main:4055-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 18:09:49] [main:4055-DEBUG] Autowiring by type from bean name 'menuService' to bean named 'baseDao'
+[2015-08-05 18:09:49] [main:4055-DEBUG] Finished creating instance of bean 'menuService'
+[2015-08-05 18:09:49] [main:4055-DEBUG] Creating shared instance of singleton bean 'roleService'
+[2015-08-05 18:09:49] [main:4055-DEBUG] Creating instance of bean 'roleService'
+[2015-08-05 18:09:49] [main:4055-DEBUG] Registered injected element on class [com.serviceimpl.RoleServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.RoleServiceImpl.baseDao
+[2015-08-05 18:09:49] [main:4055-DEBUG] Eagerly caching bean 'roleService' to allow for resolving potential circular references
+[2015-08-05 18:09:49] [main:4055-DEBUG] Processing injected method of bean 'roleService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.RoleServiceImpl.baseDao
+[2015-08-05 18:09:49] [main:4055-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 18:09:49] [main:4070-DEBUG] Autowiring by type from bean name 'roleService' to bean named 'baseDao'
+[2015-08-05 18:09:49] [main:4070-DEBUG] Finished creating instance of bean 'roleService'
+[2015-08-05 18:09:49] [main:4070-DEBUG] Creating shared instance of singleton bean 'systemService'
+[2015-08-05 18:09:49] [main:4070-DEBUG] Creating instance of bean 'systemService'
+[2015-08-05 18:09:49] [main:4070-DEBUG] Registered injected element on class [com.serviceimpl.SystemServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.SystemServiceImpl.baseDao
+[2015-08-05 18:09:49] [main:4070-DEBUG] Eagerly caching bean 'systemService' to allow for resolving potential circular references
+[2015-08-05 18:09:49] [main:4070-DEBUG] Processing injected method of bean 'systemService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.SystemServiceImpl.baseDao
+[2015-08-05 18:09:49] [main:4070-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 18:09:49] [main:4070-DEBUG] Autowiring by type from bean name 'systemService' to bean named 'baseDao'
+[2015-08-05 18:09:49] [main:4070-DEBUG] Finished creating instance of bean 'systemService'
+[2015-08-05 18:09:49] [main:4070-DEBUG] Creating shared instance of singleton bean 'userService'
+[2015-08-05 18:09:49] [main:4070-DEBUG] Creating instance of bean 'userService'
+[2015-08-05 18:09:49] [main:4070-DEBUG] Registered injected element on class [com.serviceimpl.UserServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.UserServiceImpl.baseDao
+[2015-08-05 18:09:49] [main:4070-DEBUG] Eagerly caching bean 'userService' to allow for resolving potential circular references
+[2015-08-05 18:09:49] [main:4086-DEBUG] Processing injected method of bean 'userService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.UserServiceImpl.baseDao
+[2015-08-05 18:09:49] [main:4086-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 18:09:49] [main:4086-DEBUG] Autowiring by type from bean name 'userService' to bean named 'baseDao'
+[2015-08-05 18:09:49] [main:4086-DEBUG] Finished creating instance of bean 'userService'
+[2015-08-05 18:09:49] [main:4086-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[2015-08-05 18:09:49] [main:4086-DEBUG] Returning cached instance of singleton bean 'dataSource'
+[2015-08-05 18:09:49] [main:4086-DEBUG] Returning cached instance of singleton bean 'sessionFactory'
+[2015-08-05 18:09:49] [main:4086-DEBUG] Returning cached instance of singleton bean 'hibernateTemplate'
+[2015-08-05 18:09:49] [main:4086-DEBUG] Creating shared instance of singleton bean 'transactionManager'
+[2015-08-05 18:09:49] [main:4086-DEBUG] Creating instance of bean 'transactionManager'
+[2015-08-05 18:09:49] [main:4102-DEBUG] Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+[2015-08-05 18:09:49] [main:4117-DEBUG] Returning cached instance of singleton bean 'sessionFactory'
+[2015-08-05 18:09:49] [main:4117-DEBUG] Invoking afterPropertiesSet() on bean with name 'transactionManager'
+[2015-08-05 18:09:49] [main:4133-INFO] Using DataSource [{
+	CreateTime:"2015-08-05 18:09:46",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:1224193271, ConnectTime:"2015-08-05 18:09:48", UseCount:2, LastActiveTime:"2015-08-05 18:09:49"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[2015-08-05 18:09:49] [main:4133-DEBUG] Finished creating instance of bean 'transactionManager'
+[2015-08-05 18:09:49] [main:4133-DEBUG] Creating shared instance of singleton bean 'transactionAdvice'
+[2015-08-05 18:09:49] [main:4133-DEBUG] Creating instance of bean 'transactionAdvice'
+[2015-08-05 18:09:49] [main:4133-DEBUG] Eagerly caching bean 'transactionAdvice' to allow for resolving potential circular references
+[2015-08-05 18:09:49] [main:4133-DEBUG] Returning cached instance of singleton bean 'transactionManager'
+[2015-08-05 18:09:49] [main:4133-DEBUG] Creating instance of bean '(inner bean)'
+[2015-08-05 18:09:49] [main:4149-DEBUG] Adding transactional method [add*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 18:09:49] [main:4149-DEBUG] Adding transactional method [save*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 18:09:49] [main:4149-DEBUG] Adding transactional method [del*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 18:09:49] [main:4149-DEBUG] Adding transactional method [update*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 18:09:49] [main:4149-DEBUG] Adding transactional method [modify*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 18:09:49] [main:4149-DEBUG] Adding transactional method [remove*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 18:09:49] [main:4149-DEBUG] Adding transactional method [get*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 18:09:49] [main:4149-DEBUG] Adding transactional method [find*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 18:09:49] [main:4149-DEBUG] Adding transactional method [load*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 18:09:49] [main:4149-DEBUG] Adding transactional method [search*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 18:09:49] [main:4149-DEBUG] Adding transactional method [*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 18:09:49] [main:4149-DEBUG] Finished creating instance of bean '(inner bean)'
+[2015-08-05 18:09:49] [main:4149-DEBUG] Invoking afterPropertiesSet() on bean with name 'transactionAdvice'
+[2015-08-05 18:09:49] [main:4149-DEBUG] Finished creating instance of bean 'transactionAdvice'
+[2015-08-05 18:09:49] [main:4149-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2015-08-05 18:09:49] [main:4149-DEBUG] Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@4f999620]
+[2015-08-05 18:09:49] [main:4149-DEBUG] Returning cached instance of singleton bean 'lifecycleProcessor'
+[2015-08-05 18:09:49] [main:4149-DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+[2015-08-05 18:09:49] [main:4149-DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+[2015-08-05 18:09:49] [main:4164-DEBUG] Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+[2015-08-05 18:09:49] [main:4164-DEBUG] Returning cached instance of singleton bean 'userService'
+[2015-08-05 18:09:49] [main:4164-DEBUG] Returning cached instance of singleton bean 'echarService'
+[2015-08-05 18:09:49] [main:4164-DEBUG] Returning cached instance of singleton bean 'roleService'
+[2015-08-05 18:09:49] [main:4164-DEBUG] Opening Hibernate Session
+[2015-08-05 18:09:49] [main:4555-DEBUG] Eagerly flushing Hibernate session
+[2015-08-05 18:09:49] [main:4570-DEBUG] Closing Hibernate Session
+[2015-08-05 18:14:46] [main:0-DEBUG] Initializing new StandardEnvironment
+[2015-08-05 18:14:47] [main:13-DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+[2015-08-05 18:14:47] [main:13-DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+[2015-08-05 18:14:47] [main:13-DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2015-08-05 18:14:47] [main:29-INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@718c2d48: startup date [Wed Aug 05 18:14:47 CST 2015]; root of context hierarchy
+[2015-08-05 18:14:47] [main:138-DEBUG] Initializing new StandardEnvironment
+[2015-08-05 18:14:47] [main:138-DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+[2015-08-05 18:14:47] [main:138-DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+[2015-08-05 18:14:47] [main:138-DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2015-08-05 18:14:47] [main:169-INFO] Loading XML bean definitions from class path resource [spring-applicationContext.xml]
+[2015-08-05 18:14:47] [main:201-DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[2015-08-05 18:14:47] [main:279-DEBUG] Loading schema mappings from [META-INF/spring.schemas]
+[2015-08-05 18:14:47] [main:295-DEBUG] Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.alibaba.com/schema/stat.xsd=META-INF/stat.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+[2015-08-05 18:14:47] [main:310-DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+[2015-08-05 18:14:47] [main:404-DEBUG] Found XML schema [http://www.springframework.org/schema/context/spring-context-3.2.xsd] in classpath: org/springframework/context/config/spring-context-3.2.xsd
+[2015-08-05 18:14:47] [main:419-DEBUG] Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.2.xsd
+[2015-08-05 18:14:47] [main:451-DEBUG] Loading bean definitions
+[2015-08-05 18:14:47] [main:482-DEBUG] Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.alibaba.com/schema/stat=com.alibaba.druid.support.spring.stat.config.DruidStatNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+[2015-08-05 18:14:47] [main:529-DEBUG] Initializing new StandardEnvironment
+[2015-08-05 18:14:47] [main:529-DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+[2015-08-05 18:14:47] [main:529-DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+[2015-08-05 18:14:47] [main:529-DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2015-08-05 18:14:47] [main:545-DEBUG] Looking for matching resources in directory tree [F:\workspace\SSHMJ\target\classes\com\dao]
+[2015-08-05 18:14:47] [main:545-DEBUG] Searching directory [F:\workspace\SSHMJ\target\classes\com\dao] for files matching pattern [F:/workspace/SSHMJ/target/classes/com/dao/**/*.class]
+[2015-08-05 18:14:47] [main:560-DEBUG] Resolved location pattern [classpath*:com/dao/**/*.class] to resources [file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDao.class], file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDaoImpl$1.class], file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDaoImpl$2.class], file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDaoImpl.class]]
+[2015-08-05 18:14:47] [main:638-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\dao\BaseDaoImpl.class]
+[2015-08-05 18:14:47] [main:701-DEBUG] Initializing new StandardEnvironment
+[2015-08-05 18:14:47] [main:701-DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+[2015-08-05 18:14:47] [main:701-DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+[2015-08-05 18:14:47] [main:701-DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[2015-08-05 18:14:47] [main:701-DEBUG] Looking for matching resources in directory tree [F:\workspace\SSHMJ\target\classes\com\serviceimpl]
+[2015-08-05 18:14:47] [main:701-DEBUG] Searching directory [F:\workspace\SSHMJ\target\classes\com\serviceimpl] for files matching pattern [F:/workspace/SSHMJ/target/classes/com/serviceimpl/**/*.class]
+[2015-08-05 18:14:47] [main:701-DEBUG] Resolved location pattern [classpath*:com/serviceimpl/**/*.class] to resources [file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\CommonServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\ECharServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\MenuServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\RoleServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\SystemServiceImpl.class], file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\UserServiceImpl.class]]
+[2015-08-05 18:14:47] [main:716-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\CommonServiceImpl.class]
+[2015-08-05 18:14:47] [main:716-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\ECharServiceImpl.class]
+[2015-08-05 18:14:47] [main:716-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\MenuServiceImpl.class]
+[2015-08-05 18:14:47] [main:716-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\RoleServiceImpl.class]
+[2015-08-05 18:14:47] [main:716-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\SystemServiceImpl.class]
+[2015-08-05 18:14:47] [main:716-DEBUG] Identified candidate component class: file [F:\workspace\SSHMJ\target\classes\com\serviceimpl\UserServiceImpl.class]
+[2015-08-05 18:14:47] [main:732-DEBUG] Loaded 15 bean definitions from location pattern [classpath:spring-applicationContext.xml]
+[2015-08-05 18:14:47] [main:732-INFO] Loading XML bean definitions from class path resource [spring-applicationContext-datasource.xml]
+[2015-08-05 18:14:47] [main:732-DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[2015-08-05 18:14:47] [main:732-DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+[2015-08-05 18:14:47] [main:779-DEBUG] Found XML schema [http://www.springframework.org/schema/context/spring-context-3.2.xsd] in classpath: org/springframework/context/config/spring-context-3.2.xsd
+[2015-08-05 18:14:47] [main:795-DEBUG] Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.2.xsd
+[2015-08-05 18:14:47] [main:810-DEBUG] Found XML schema [http://www.springframework.org/schema/tx/spring-tx-3.2.xsd] in classpath: org/springframework/transaction/config/spring-tx-3.2.xsd
+[2015-08-05 18:14:47] [main:826-DEBUG] Loading bean definitions
+[2015-08-05 18:14:47] [main:841-DEBUG] No XML 'id' specified - using 'dataSource' as bean name and [] as aliases
+[2015-08-05 18:14:47] [main:888-DEBUG] Loaded 6 bean definitions from location pattern [classpath:spring-applicationContext-datasource.xml]
+[2015-08-05 18:14:47] [main:888-DEBUG] Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@718c2d48: org.springframework.beans.factory.support.DefaultListableBeanFactory@5c797bc6: defining beans [baseDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,commonService,echarService,menuService,roleService,systemService,userService,testSpringAction,testEChartAction,roleAction,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sessionFactory,hibernateTemplate,transactionManager,transactionAdvice]; root of factory hierarchy
+[2015-08-05 18:14:47] [main:966-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2015-08-05 18:14:47] [main:966-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2015-08-05 18:14:48] [main:1013-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 18:14:48] [main:1019-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2015-08-05 18:14:48] [main:1112-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[2015-08-05 18:14:48] [main:1112-DEBUG] Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[2015-08-05 18:14:48] [main:1128-DEBUG] Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+[2015-08-05 18:14:48] [main:1175-DEBUG] Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[2015-08-05 18:14:48] [main:1190-DEBUG] Adding [environmentProperties] PropertySource with lowest search precedence
+[2015-08-05 18:14:48] [main:1190-INFO] Loading properties file from class path resource [jdbc.properties]
+[2015-08-05 18:14:48] [main:1190-DEBUG] Adding [localProperties] PropertySource with lowest search precedence
+[2015-08-05 18:14:48] [main:1190-DEBUG] Searching for key 'jdbc_url' in [environmentProperties]
+[2015-08-05 18:14:48] [main:1190-DEBUG] Searching for key 'jdbc_url' in [systemProperties]
+[2015-08-05 18:14:48] [main:1190-DEBUG] Searching for key 'jdbc_url' in [systemEnvironment]
+[2015-08-05 18:14:48] [main:1190-DEBUG] Could not find key 'jdbc_url' in any property source. Returning [null]
+[2015-08-05 18:14:48] [main:1190-DEBUG] Searching for key 'jdbc_url' in [localProperties]
+[2015-08-05 18:14:48] [main:1190-DEBUG] Found key 'jdbc_url' in [localProperties] with type [String] and value 'jdbc:mysql://localhost:3306/testHibernate?useUnicode=true&characterEncoding=UTF-8'
+[2015-08-05 18:14:48] [main:1206-DEBUG] Searching for key 'jdbc_username' in [environmentProperties]
+[2015-08-05 18:14:48] [main:1206-DEBUG] Searching for key 'jdbc_username' in [systemProperties]
+[2015-08-05 18:14:48] [main:1206-DEBUG] Searching for key 'jdbc_username' in [systemEnvironment]
+[2015-08-05 18:14:48] [main:1206-DEBUG] Could not find key 'jdbc_username' in any property source. Returning [null]
+[2015-08-05 18:14:48] [main:1206-DEBUG] Searching for key 'jdbc_username' in [localProperties]
+[2015-08-05 18:14:48] [main:1206-DEBUG] Found key 'jdbc_username' in [localProperties] with type [String] and value 'root'
+[2015-08-05 18:14:48] [main:1206-DEBUG] Searching for key 'jdbc_password' in [environmentProperties]
+[2015-08-05 18:14:48] [main:1206-DEBUG] Searching for key 'jdbc_password' in [systemProperties]
+[2015-08-05 18:14:48] [main:1206-DEBUG] Searching for key 'jdbc_password' in [systemEnvironment]
+[2015-08-05 18:14:48] [main:1206-DEBUG] Could not find key 'jdbc_password' in any property source. Returning [null]
+[2015-08-05 18:14:48] [main:1206-DEBUG] Searching for key 'jdbc_password' in [localProperties]
+[2015-08-05 18:14:48] [main:1206-DEBUG] Found key 'jdbc_password' in [localProperties] with type [String] and value '1211119'
+[2015-08-05 18:14:48] [main:1206-DEBUG] Searching for key 'validationQuery' in [environmentProperties]
+[2015-08-05 18:14:48] [main:1206-DEBUG] Searching for key 'validationQuery' in [systemProperties]
+[2015-08-05 18:14:48] [main:1206-DEBUG] Searching for key 'validationQuery' in [systemEnvironment]
+[2015-08-05 18:14:48] [main:1206-DEBUG] Could not find key 'validationQuery' in any property source. Returning [null]
+[2015-08-05 18:14:48] [main:1206-DEBUG] Searching for key 'validationQuery' in [localProperties]
+[2015-08-05 18:14:48] [main:1222-DEBUG] Found key 'validationQuery' in [localProperties] with type [String] and value 'SELECT 1'
+[2015-08-05 18:14:48] [main:1222-DEBUG] Searching for key 'hibernate.dialect' in [environmentProperties]
+[2015-08-05 18:14:48] [main:1222-DEBUG] Searching for key 'hibernate.dialect' in [systemProperties]
+[2015-08-05 18:14:48] [main:1222-DEBUG] Searching for key 'hibernate.dialect' in [systemEnvironment]
+[2015-08-05 18:14:48] [main:1222-DEBUG] Could not find key 'hibernate.dialect' in any property source. Returning [null]
+[2015-08-05 18:14:48] [main:1222-DEBUG] Searching for key 'hibernate.dialect' in [localProperties]
+[2015-08-05 18:14:48] [main:1222-DEBUG] Found key 'hibernate.dialect' in [localProperties] with type [String] and value 'org.hibernate.dialect.MySQLDialect'
+[2015-08-05 18:14:48] [main:1237-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2015-08-05 18:14:48] [main:1237-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2015-08-05 18:14:48] [main:1237-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 18:14:48] [main:1237-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2015-08-05 18:14:48] [main:1237-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2015-08-05 18:14:48] [main:1237-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2015-08-05 18:14:48] [main:1237-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 18:14:48] [main:1237-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2015-08-05 18:14:48] [main:1237-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2015-08-05 18:14:48] [main:1237-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2015-08-05 18:14:48] [main:1253-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 18:14:48] [main:1253-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2015-08-05 18:14:48] [main:1253-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2015-08-05 18:14:48] [main:1253-DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2015-08-05 18:14:48] [main:1253-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+[2015-08-05 18:14:48] [main:1253-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2015-08-05 18:14:48] [main:1253-DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2015-08-05 18:14:48] [main:1253-DEBUG] Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2015-08-05 18:14:48] [main:1253-DEBUG] Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+[2015-08-05 18:14:48] [main:1253-DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2015-08-05 18:14:48] [main:1269-DEBUG] Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@55c1c532]
+[2015-08-05 18:14:48] [main:1284-DEBUG] Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@3f0ca60c]
+[2015-08-05 18:14:48] [main:1284-INFO] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5c797bc6: defining beans [baseDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,commonService,echarService,menuService,roleService,systemService,userService,testSpringAction,testEChartAction,roleAction,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sessionFactory,hibernateTemplate,transactionManager,transactionAdvice,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[2015-08-05 18:14:48] [main:1284-DEBUG] Creating shared instance of singleton bean 'baseDao'
+[2015-08-05 18:14:48] [main:1284-DEBUG] Creating instance of bean 'baseDao'
+[2015-08-05 18:14:48] [main:1315-DEBUG] Registered injected element on class [com.dao.BaseDaoImpl]: AutowiredFieldElement for org.springframework.orm.hibernate3.HibernateTemplate com.dao.BaseDaoImpl.hibernateTemplate
+[2015-08-05 18:14:48] [main:1315-DEBUG] Eagerly caching bean 'baseDao' to allow for resolving potential circular references
+[2015-08-05 18:14:48] [main:1331-DEBUG] Processing injected method of bean 'baseDao': AutowiredFieldElement for org.springframework.orm.hibernate3.HibernateTemplate com.dao.BaseDaoImpl.hibernateTemplate
+[2015-08-05 18:14:48] [main:1362-DEBUG] Creating shared instance of singleton bean 'hibernateTemplate'
+[2015-08-05 18:14:48] [main:1362-DEBUG] Creating instance of bean 'hibernateTemplate'
+[2015-08-05 18:14:48] [main:1394-DEBUG] Eagerly caching bean 'hibernateTemplate' to allow for resolving potential circular references
+[2015-08-05 18:14:48] [main:1440-DEBUG] Creating shared instance of singleton bean 'sessionFactory'
+[2015-08-05 18:14:48] [main:1456-DEBUG] Creating instance of bean 'sessionFactory'
+[2015-08-05 18:14:48] [main:1472-DEBUG] Eagerly caching bean 'sessionFactory' to allow for resolving potential circular references
+[2015-08-05 18:14:48] [main:1503-DEBUG] Creating shared instance of singleton bean 'dataSource'
+[2015-08-05 18:14:48] [main:1503-DEBUG] Creating instance of bean 'dataSource'
+[2015-08-05 18:14:48] [main:1581-DEBUG] Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+[2015-08-05 18:14:48] [main:1692-ERROR] maxIdle is deprecated
+[2015-08-05 18:14:48] [main:1738-DEBUG] Invoking init method  'init' on bean with name 'dataSource'
+[2015-08-05 18:14:48] [main:1910-INFO] {dataSource-1} inited
+[2015-08-05 18:14:48] [main:1910-DEBUG] Finished creating instance of bean 'dataSource'
+[2015-08-05 18:14:48] [main:1926-DEBUG] Invoking afterPropertiesSet() on bean with name 'sessionFactory'
+[2015-08-05 18:14:49] [main:2460-DEBUG] Looking for matching resources in directory tree [F:\workspace\SSHMJ\target\classes\com\orm]
+[2015-08-05 18:14:49] [main:2470-DEBUG] Searching directory [F:\workspace\SSHMJ\target\classes\com\orm] for files matching pattern [F:/workspace/SSHMJ/target/classes/com/orm/**/*.class]
+[2015-08-05 18:14:49] [main:2471-DEBUG] Resolved location pattern [classpath*:com/orm/**/*.class] to resources [file [F:\workspace\SSHMJ\target\classes\com\orm\ECharData.class], file [F:\workspace\SSHMJ\target\classes\com\orm\SystemMenu.class], file [F:\workspace\SSHMJ\target\classes\com\orm\SystemRole.class], file [F:\workspace\SSHMJ\target\classes\com\orm\SystemUser.class]]
+[2015-08-05 18:14:49] [main:2924-INFO] Building new Hibernate SessionFactory
+[2015-08-05 18:14:51] [main:4409-DEBUG] Finished creating instance of bean 'sessionFactory'
+[2015-08-05 18:14:51] [main:4420-DEBUG] Invoking afterPropertiesSet() on bean with name 'hibernateTemplate'
+[2015-08-05 18:14:51] [main:4421-DEBUG] Finished creating instance of bean 'hibernateTemplate'
+[2015-08-05 18:14:51] [main:4421-DEBUG] Autowiring by type from bean name 'baseDao' to bean named 'hibernateTemplate'
+[2015-08-05 18:14:51] [main:4421-DEBUG] Finished creating instance of bean 'baseDao'
+[2015-08-05 18:14:51] [main:4421-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2015-08-05 18:14:51] [main:4421-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2015-08-05 18:14:51] [main:4421-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[2015-08-05 18:14:51] [main:4421-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2015-08-05 18:14:51] [main:4421-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2015-08-05 18:14:51] [main:4421-DEBUG] Creating shared instance of singleton bean 'commonService'
+[2015-08-05 18:14:51] [main:4421-DEBUG] Creating instance of bean 'commonService'
+[2015-08-05 18:14:51] [main:4421-DEBUG] Registered injected element on class [com.serviceimpl.CommonServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.CommonServiceImpl.baseDao
+[2015-08-05 18:14:51] [main:4421-DEBUG] Eagerly caching bean 'commonService' to allow for resolving potential circular references
+[2015-08-05 18:14:51] [main:4421-DEBUG] Processing injected method of bean 'commonService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.CommonServiceImpl.baseDao
+[2015-08-05 18:14:51] [main:4421-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 18:14:51] [main:4421-DEBUG] Autowiring by type from bean name 'commonService' to bean named 'baseDao'
+[2015-08-05 18:14:51] [main:4421-DEBUG] Finished creating instance of bean 'commonService'
+[2015-08-05 18:14:51] [main:4421-DEBUG] Creating shared instance of singleton bean 'echarService'
+[2015-08-05 18:14:51] [main:4421-DEBUG] Creating instance of bean 'echarService'
+[2015-08-05 18:14:51] [main:4421-DEBUG] Registered injected element on class [com.serviceimpl.ECharServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.ECharServiceImpl.baseDao
+[2015-08-05 18:14:51] [main:4421-DEBUG] Eagerly caching bean 'echarService' to allow for resolving potential circular references
+[2015-08-05 18:14:51] [main:4437-DEBUG] Processing injected method of bean 'echarService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.ECharServiceImpl.baseDao
+[2015-08-05 18:14:51] [main:4437-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 18:14:51] [main:4437-DEBUG] Autowiring by type from bean name 'echarService' to bean named 'baseDao'
+[2015-08-05 18:14:51] [main:4437-DEBUG] Finished creating instance of bean 'echarService'
+[2015-08-05 18:14:51] [main:4437-DEBUG] Creating shared instance of singleton bean 'menuService'
+[2015-08-05 18:14:51] [main:4437-DEBUG] Creating instance of bean 'menuService'
+[2015-08-05 18:14:51] [main:4437-DEBUG] Registered injected element on class [com.serviceimpl.MenuServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.MenuServiceImpl.baseDao
+[2015-08-05 18:14:51] [main:4437-DEBUG] Eagerly caching bean 'menuService' to allow for resolving potential circular references
+[2015-08-05 18:14:51] [main:4437-DEBUG] Processing injected method of bean 'menuService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.MenuServiceImpl.baseDao
+[2015-08-05 18:14:51] [main:4437-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 18:14:51] [main:4437-DEBUG] Autowiring by type from bean name 'menuService' to bean named 'baseDao'
+[2015-08-05 18:14:51] [main:4437-DEBUG] Finished creating instance of bean 'menuService'
+[2015-08-05 18:14:51] [main:4437-DEBUG] Creating shared instance of singleton bean 'roleService'
+[2015-08-05 18:14:51] [main:4437-DEBUG] Creating instance of bean 'roleService'
+[2015-08-05 18:14:51] [main:4437-DEBUG] Registered injected element on class [com.serviceimpl.RoleServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.RoleServiceImpl.baseDao
+[2015-08-05 18:14:51] [main:4437-DEBUG] Eagerly caching bean 'roleService' to allow for resolving potential circular references
+[2015-08-05 18:14:51] [main:4453-DEBUG] Processing injected method of bean 'roleService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.RoleServiceImpl.baseDao
+[2015-08-05 18:14:51] [main:4453-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 18:14:51] [main:4453-DEBUG] Autowiring by type from bean name 'roleService' to bean named 'baseDao'
+[2015-08-05 18:14:51] [main:4453-DEBUG] Finished creating instance of bean 'roleService'
+[2015-08-05 18:14:51] [main:4453-DEBUG] Creating shared instance of singleton bean 'systemService'
+[2015-08-05 18:14:51] [main:4453-DEBUG] Creating instance of bean 'systemService'
+[2015-08-05 18:14:51] [main:4453-DEBUG] Registered injected element on class [com.serviceimpl.SystemServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.SystemServiceImpl.baseDao
+[2015-08-05 18:14:51] [main:4453-DEBUG] Eagerly caching bean 'systemService' to allow for resolving potential circular references
+[2015-08-05 18:14:51] [main:4453-DEBUG] Processing injected method of bean 'systemService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.SystemServiceImpl.baseDao
+[2015-08-05 18:14:51] [main:4453-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 18:14:51] [main:4453-DEBUG] Autowiring by type from bean name 'systemService' to bean named 'baseDao'
+[2015-08-05 18:14:51] [main:4453-DEBUG] Finished creating instance of bean 'systemService'
+[2015-08-05 18:14:51] [main:4453-DEBUG] Creating shared instance of singleton bean 'userService'
+[2015-08-05 18:14:51] [main:4453-DEBUG] Creating instance of bean 'userService'
+[2015-08-05 18:14:51] [main:4453-DEBUG] Registered injected element on class [com.serviceimpl.UserServiceImpl]: AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.UserServiceImpl.baseDao
+[2015-08-05 18:14:51] [main:4453-DEBUG] Eagerly caching bean 'userService' to allow for resolving potential circular references
+[2015-08-05 18:14:51] [main:4468-DEBUG] Processing injected method of bean 'userService': AutowiredFieldElement for com.dao.BaseDao com.serviceimpl.UserServiceImpl.baseDao
+[2015-08-05 18:14:51] [main:4468-DEBUG] Returning cached instance of singleton bean 'baseDao'
+[2015-08-05 18:14:51] [main:4468-DEBUG] Autowiring by type from bean name 'userService' to bean named 'baseDao'
+[2015-08-05 18:14:51] [main:4468-DEBUG] Finished creating instance of bean 'userService'
+[2015-08-05 18:14:51] [main:4468-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+[2015-08-05 18:14:51] [main:4468-DEBUG] Returning cached instance of singleton bean 'dataSource'
+[2015-08-05 18:14:51] [main:4468-DEBUG] Returning cached instance of singleton bean 'sessionFactory'
+[2015-08-05 18:14:51] [main:4468-DEBUG] Returning cached instance of singleton bean 'hibernateTemplate'
+[2015-08-05 18:14:51] [main:4468-DEBUG] Creating shared instance of singleton bean 'transactionManager'
+[2015-08-05 18:14:51] [main:4468-DEBUG] Creating instance of bean 'transactionManager'
+[2015-08-05 18:14:51] [main:4484-DEBUG] Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+[2015-08-05 18:14:51] [main:4500-DEBUG] Returning cached instance of singleton bean 'sessionFactory'
+[2015-08-05 18:14:51] [main:4500-DEBUG] Invoking afterPropertiesSet() on bean with name 'transactionManager'
+[2015-08-05 18:14:51] [main:4515-INFO] Using DataSource [{
+	CreateTime:"2015-08-05 18:14:48",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:1455148926, ConnectTime:"2015-08-05 18:14:50", UseCount:2, LastActiveTime:"2015-08-05 18:14:51"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[2015-08-05 18:14:51] [main:4515-DEBUG] Finished creating instance of bean 'transactionManager'
+[2015-08-05 18:14:51] [main:4515-DEBUG] Creating shared instance of singleton bean 'transactionAdvice'
+[2015-08-05 18:14:51] [main:4515-DEBUG] Creating instance of bean 'transactionAdvice'
+[2015-08-05 18:14:51] [main:4515-DEBUG] Eagerly caching bean 'transactionAdvice' to allow for resolving potential circular references
+[2015-08-05 18:14:51] [main:4515-DEBUG] Returning cached instance of singleton bean 'transactionManager'
+[2015-08-05 18:14:51] [main:4531-DEBUG] Creating instance of bean '(inner bean)'
+[2015-08-05 18:14:51] [main:4531-DEBUG] Adding transactional method [add*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 18:14:51] [main:4531-DEBUG] Adding transactional method [save*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 18:14:51] [main:4531-DEBUG] Adding transactional method [del*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 18:14:51] [main:4531-DEBUG] Adding transactional method [update*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 18:14:51] [main:4531-DEBUG] Adding transactional method [modify*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 18:14:51] [main:4531-DEBUG] Adding transactional method [remove*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+[2015-08-05 18:14:51] [main:4531-DEBUG] Adding transactional method [get*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 18:14:51] [main:4531-DEBUG] Adding transactional method [find*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 18:14:51] [main:4531-DEBUG] Adding transactional method [load*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 18:14:51] [main:4531-DEBUG] Adding transactional method [search*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 18:14:51] [main:4531-DEBUG] Adding transactional method [*] with attribute [PROPAGATION_NOT_SUPPORTED,ISOLATION_DEFAULT]
+[2015-08-05 18:14:51] [main:4531-DEBUG] Finished creating instance of bean '(inner bean)'
+[2015-08-05 18:14:51] [main:4531-DEBUG] Invoking afterPropertiesSet() on bean with name 'transactionAdvice'
+[2015-08-05 18:14:51] [main:4531-DEBUG] Finished creating instance of bean 'transactionAdvice'
+[2015-08-05 18:14:51] [main:4531-DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[2015-08-05 18:14:51] [main:4546-DEBUG] Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@199afbc3]
+[2015-08-05 18:14:51] [main:4546-DEBUG] Returning cached instance of singleton bean 'lifecycleProcessor'
+[2015-08-05 18:14:51] [main:4546-DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+[2015-08-05 18:14:51] [main:4546-DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+[2015-08-05 18:14:51] [main:4546-DEBUG] Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+[2015-08-05 18:14:51] [main:4546-DEBUG] Returning cached instance of singleton bean 'userService'
+[2015-08-05 18:14:51] [main:4546-DEBUG] Returning cached instance of singleton bean 'echarService'
+[2015-08-05 18:14:51] [main:4546-DEBUG] Returning cached instance of singleton bean 'roleService'
+[2015-08-05 18:14:51] [main:4546-DEBUG] Returning cached instance of singleton bean 'systemService'
+[2015-08-05 18:14:51] [main:4562-DEBUG] Opening Hibernate Session
+[2015-08-05 18:14:51] [main:4843-DEBUG] Eagerly flushing Hibernate session
+[2015-08-05 18:14:51] [main:4843-DEBUG] Closing Hibernate Session

@@ -12,8 +12,11 @@
 	<context:component-scan base-package="com.serviceimpl" />
 	
 	<!--  统一管理action-->
+	<bean id="loginAction" class="com.action.LoginAction" scope="prototype" />
+	<bean id="userAction" class="com.action.UserAction" scope="prototype" />
+	<bean id="roleAction" class="com.action.RoleAction" scope="prototype" />
+	<bean id="menuAction" class="com.action.MenuAction" scope="prototype" />
 	<bean id="testSpringAction" class="com.action.TestSpringAction" scope="prototype" />
 	<bean id="testEChartAction" class="com.action.TestEChartAction" scope="prototype" />
-	<bean id="roleAction" class="com.action.RoleAction" scope="prototype" />
 	
 </beans>

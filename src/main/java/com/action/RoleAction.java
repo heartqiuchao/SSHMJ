@@ -5,10 +5,8 @@ import javax.servlet.http.HttpServletRequest;
 import org.apache.struts2.ServletActionContext;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.dao.BaseDao;
 import com.opensymphony.xwork2.ActionSupport;
 import com.orm.SystemRole;
-import com.service.RoleService;
 import com.service.SystemService;
 
 @SuppressWarnings("serial")
@@ -16,11 +14,12 @@ public class RoleAction extends ActionSupport{
 	
 	@Autowired
 	SystemService  systemService;
-	@Autowired
-	RoleService roleService;
-	@Autowired
-	BaseDao baseDao;
 	
+	@Override
+	public String execute() throws Exception {
+		return ERROR;
+	}
+
 	public String manageRole() {
 		return "manageRole";
 	}
@@ -31,10 +30,10 @@ public class RoleAction extends ActionSupport{
 		SystemRole role = new SystemRole();
 		role.setRolename(request.getParameter("rolename"));
 		role.setId(Integer.parseInt(request.getParameter("roleid")));
-		try {
-			baseDao.save(role);
+		boolean flag = systemService.save(role);
+		if (flag) {
 			return "addSuccess";
-		} catch (Exception e) {
+		}else {
 			return ERROR;
 		}
 	}

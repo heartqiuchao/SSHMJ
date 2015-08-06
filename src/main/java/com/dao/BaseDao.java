@@ -23,6 +23,11 @@ public interface BaseDao {
 	 * find by name
 	 */
 	public <T> List<T> findByName(String clazz, String name);
+	
+	/**
+	 * find by account
+	 */
+	public <T> List<T> findByAccount(String clazz, String account);
 
 	/**
 	 * find all

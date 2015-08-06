@@ -15,7 +15,7 @@ public class TestEChartAction extends ActionSupport{
 	@Override
 	public String execute(){
 		System.out.println("coming in execute....");
-		return SUCCESS;
+		return ERROR;
 	}
 	public String index() {
 		System.out.println("coming in index...");

@@ -35,6 +35,12 @@ public class BaseDaoImpl implements BaseDao {
 	public <T> T findById(Class<?> clazz, Serializable id) {
 		return (T) hibernateTemplate.get(clazz, id);
 	}
+	
+	@Override
+	@Transactional(propagation = Propagation.NOT_SUPPORTED, readOnly=true)
+	public <T> List<T> findByAccount(String clazz, String account) {
+		return  hibernateTemplate.find("from " + clazz+" as a where a.account='"+account+"'");
+	}
 
 	@Override
 	@Transactional(propagation = Propagation.NOT_SUPPORTED, readOnly=true)
@@ -59,8 +65,8 @@ public class BaseDaoImpl implements BaseDao {
 	@Override
 	@Transactional(propagation = Propagation.NOT_SUPPORTED, readOnly=true)
 	public <T> List<T> findByName(String clazz, String name) {
-		return hibernateTemplate.find("from " + clazz + "as e where e.name="
-				+ name);
+		return hibernateTemplate.find("from " + clazz + " as n where n.name='"
+				+ name+"'");
 	}
 
 	@Override

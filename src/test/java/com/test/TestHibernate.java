@@ -70,7 +70,7 @@ public class TestHibernate {
 		System.out.println("end testSaveECharMethod...");
 	}
 	*/
-	@Test
+	/*@Test
 	public void testSaveRoleMethod() {
 		System.out.println("coming in testRoleECharMethod...");
 
@@ -82,19 +82,19 @@ public class TestHibernate {
 		systemService.save(role);
 
 		System.out.println("end testSaveRoleMethod...");
-	}
+	}*/
 	
-	/*@Test
+	@Test
 	public void testFindMethod() {
 		System.out.println("coming in testFindMethod...");
 
-		SystemUser systemUser = userService.findUserById("20125134");
+		SystemUser systemUser = (SystemUser) systemService.findByAccount("SystemUser", "qiuchao").get(0);
 		System.out.println("id:" + systemUser.getId());
 		System.out.println("name:" + systemUser.getName());
-		System.out.println("Age:" + systemUser.getAge());
+		System.out.println("Age:" + systemUser.getAccount());
 
 		System.out.println("end testFindMethod...");
-	}*/
+	}
 	
 	/*@Test
 	public void testFindAllUserMethod() {
@@ -105,7 +105,7 @@ public class TestHibernate {
 			System.out.println("------------------------");
 			System.out.println("id:" + systemUser.getId());
 			System.out.println("name:" + systemUser.getName());
-			System.out.println("Age:" + systemUser.getAge());
+			System.out.println("Age:" + systemUser.getAccount());
 			System.out.println("------------------------");
 		}
 		

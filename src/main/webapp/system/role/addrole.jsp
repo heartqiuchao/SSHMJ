@@ -14,15 +14,15 @@ String path = request.getContextPath();
 <title>添加用户角色</title>
 </head>
 <body>
-	<form id="addroleform" name="addroleform" action="role_addRole.action" method="post">
-	
-		<label>角色ID</label>
-		<input type="text" name="roleid"/>
-		
-		<label>角色名称</label>
-		<input type="text" name="rolename"/>
-		
-		<button type="submit" class="btn">添加</button>
-	</form>
+	<div class="container">
+	<div align="center" width=100>
+		<form class="form-signin" role="form" action="role_addRole.action" method="post">
+			<h2 class="form-signin-heading">添加角色</h2>
+			<input type="text" class="input-block-level" name="roleid" placeholder="角色ID" required><br>
+			<input type="text" class="input-block-level" name="rolename" placeholder="角色名" required autofocus><br>
+			<button class="btn btn-small btn-primary" type="submit">添加角色</button>
+		</form>
+		</div>
+	</div>
 </body>
 </html>

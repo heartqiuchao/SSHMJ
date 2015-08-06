@@ -57,4 +57,9 @@ public class UserServiceImpl implements UserService{
 	public List<SystemUser> findAllUser() {
 		return baseDao.findAll("SystemUser");
 	}
+
+	@Override
+	public SystemUser findUserByName(String userName) {
+		return (SystemUser) baseDao.findByName("SystemUser", userName);
+	}
 }

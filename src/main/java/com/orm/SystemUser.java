@@ -5,17 +5,21 @@ import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 @SuppressWarnings("serial")
 @Entity
 @Table(name = "SYSTEM_USER")
+@SequenceGenerator(name = "SeqGenUser", sequenceName = "systemuser_sequence")
 public class SystemUser implements Serializable{
 
 	@Id
+	@GeneratedValue(generator = "SeqGenUser")
 	@Column(name = "USERID", precision = 10, scale = 0)
 	private Integer id;
 

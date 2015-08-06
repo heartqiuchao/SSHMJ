@@ -36,13 +36,22 @@
 		<action name="errorAction">
 			<result>/error.jsp</result>
 		</action>
-		<action name="test_*_*" class="test{1}Action" method="{2}" >
-			<result>/echarts/{2}.jsp</result>
+		<action name="login*" class="loginAction" method="{1}">
+			<result name="loginSuccess">/index.jsp</result>
+			<result name="loginPage">/login.jsp</result>
+		</action>
+		<action name="user_*" class="userAction" method="{1}">
+			<result name="addSuccess">/system/user/listuser.jsp</result>
+			<result name="listAll">/system/user/listuser.jsp</result>
+			<result name="manageUser">/system/user/adduser.jsp</result>
 		</action>
 		<action name="role_*" class="roleAction" method="{1}">
 			<result name="addSuccess">/system/role/listrole.jsp</result>
 			<result name="listAll">/system/role/listrole.jsp</result>
 			<result name="manageRole">/system/role/addrole.jsp</result>
+		</action>
+		<action name="test*_*" class="test{1}Action" method="{2}" >
+			<result>/echarts/{2}.jsp</result>
 		</action>
 		<action name="common_*" class="com.action.CommonAction" method="{1}">
 		</action>

@@ -16,6 +16,12 @@ public interface SystemService {
 	public <T> T findById(Class<?> clazz, String id);
 	
 	/**
+	 * find  by account
+	 * @param <T>
+	 */
+	public <T> List<T> findByAccount(String clazz, String account);
+	
+	/**
 	 * find all 
 	 * @param <T>
 	 */

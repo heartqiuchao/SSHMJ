@@ -28,6 +28,11 @@ public class SystemServiceImpl implements SystemService{
 	public <T> T findById(Class<?> clazz, String id) {
 		return baseDao.findById(clazz, Integer.parseInt(id));
 	}
+	
+	@Override
+	public <T> List<T> findByAccount(String clazz, String account) {
+		return baseDao.findByAccount(clazz, account);
+	}
 
 	@Override
 	public <T> List<T> findAll(String clazz) {
@@ -53,5 +58,5 @@ public class SystemServiceImpl implements SystemService{
 			return false;
 		}
 	}
-	
+
 }
