@@ -21,7 +21,7 @@
 	<script type="text/javascript" src="<%=path%>/js/ztree/jquery.ztree.exhide-3.5.min.js"></script>
 	<!-- ztree核心CSS文件 -->
 	<link rel="stylesheet" type="text/css" href="<%=path%>/css/ztree/zTreeStyle.css">
-	<title>Login</title>
+	<title>Main</title>
 	
 	<script type="text/javascript">
 		var zTreeObj;
@@ -50,10 +50,10 @@
 			}
 		};	
 		var zTreeNodes =[
-				{"id":1, "pId":0, "name":"网站导航"},
-			    {"id":11, "pId":1, "name":"google","url":"http://g.cn", "target":"_blank"},
-			    {"id":12, "pId":1, "name":"baidu","url":"http://baidu.com", "target":"_blank"},
-			    {"id":121, "pId":12, "name":"sina","url":"http://www.sina.com.cn", "target":"_blank"}
+				{"id":1, "pId":0, "name":"系统维护"},
+			    {"id":11, "pId":1, "name":"系统角色","url":"role_listRole.action", "target":"rightframe"},
+			    {"id":12, "pId":1, "name":"系统用户","url":"http://baidu.com", "target":"rightframe"},
+			    {"id":13, "pId":1, "name":"系统菜单","url":"http://www.sina.com.cn", "target":"rightframe"}
 		   ];
 		$(document).ready(function(){
 			zTreeObj = $.fn.zTree.init($("#tree"), setting, zTreeNodes);
@@ -61,7 +61,17 @@
 	</script>
 </head>				
 <body>
-	<ul id="tree" class="ztree" style="width:230px; overflow:auto;"></ul>
-	
+	<div class="container-fluid">
+		<div id="lbox" >
+		<div id="bs_left">
+			<ul id="tree" class="ztree"></ul>
+		</div>
+		</div>
+		<div id="rbox" >
+		<div id="bs_right">
+			<IFRAME scrolling="auto" width="100%" height=600 frameBorder=0 id=rightframe name=rightframe src=""></IFRAME>
+		</div>
+		</div>
+	</div>
 </body>
 </html>

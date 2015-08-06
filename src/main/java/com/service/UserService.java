@@ -5,7 +5,7 @@ import java.util.List;
 import com.orm.SystemUser;
 
 /**
- * @author Qiuchao
+ * @author 秋草
  */
 public interface UserService {
 	/**

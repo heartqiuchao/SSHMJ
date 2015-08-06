@@ -37,7 +37,12 @@
 			<result>/error.jsp</result>
 		</action>
 		<action name="test_*_*" class="test{1}Action" method="{2}" >
-			<result>/{2}.jsp</result>
+			<result>/echarts/{2}.jsp</result>
+		</action>
+		<action name="role_*" class="roleAction" method="{1}">
+			<result name="addSuccess">/system/role/listrole.jsp</result>
+			<result name="listAll">/system/role/listrole.jsp</result>
+			<result name="manageRole">/system/role/addrole.jsp</result>
 		</action>
 		<action name="common_*" class="com.action.CommonAction" method="{1}">
 		</action>

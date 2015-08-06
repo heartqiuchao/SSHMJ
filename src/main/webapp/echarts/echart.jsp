@@ -78,7 +78,7 @@
 						},
 						//图例
 						legend : {
-							data : [ '销量' ]
+							data : [ '销量柱状图','销量折线图' ]
 						},
 						//工具箱
 						toolbox: {
@@ -176,7 +176,7 @@
 					        }
 						} ],
 						series : [ {
-							name : '销量',
+							name : '销量柱状图',
 							type : 'bar',
 							smooth:true,
 							symbol:'circle',
@@ -205,7 +205,32 @@
 				                    {type : 'average', name: '平均值'}
 				                ]
 				            }
-						} ]
+						},
+						{
+							name : '销量折线图',
+							type : 'line',
+							smooth:true,
+							symbol:'circle',
+							symbolSize:5,
+							/* "data" : [ 5, 20, 40, 10, 10, 20 ] */
+						    itemStyle: {
+                			    normal: {
+                    				color: '#1e90ff',
+                				}
+            				},
+							data : arr2,
+							markPoint : {
+				                data : [
+				                    {type : 'max', name: '最大值',itemStyle:{normal:{color:'#1e90ff',label:{position:'right'}}}},
+				                    {type : 'min', name: '最小值',itemStyle:{normal:{color:'#1e90ff',label:{position:'right'}}}}
+				                ]
+				            },
+				            markLine : {
+				                data : [
+				                    {type : 'average', name: '平均值'}
+				                ]
+				            }
+						}]
 					};
 
 					// 为echarts对象加载数据 

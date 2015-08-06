@@ -8,8 +8,11 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.orm.ECharData;
+import com.orm.SystemRole;
 import com.orm.SystemUser;
 import com.service.ECharService;
+import com.service.RoleService;
+import com.service.SystemService;
 import com.service.UserService;
 
 @SuppressWarnings({ "resource", "unused" })
@@ -18,6 +21,8 @@ public class TestHibernate {
 	
 	private UserService userService;
 	private ECharService echarService;
+	private RoleService roleService;
+	private SystemService systemService;
 
 	/**
 	 * 这个before方法在所有的测试方法之前执行，并且只执行一次 所有做Junit单元测试时一些初始化工作可以在这个方法里面进行
@@ -30,6 +35,8 @@ public class TestHibernate {
 						"classpath:spring-applicationContext-datasource.xml" });
 		userService = (UserService) ac.getBean("userService");
 		echarService = (ECharService) ac.getBean("echarService");
+		roleService = (RoleService)ac.getBean("roleService");
+		systemService=(SystemService)ac.getBean("systemService");
 	}
 
 	
@@ -48,7 +55,7 @@ public class TestHibernate {
 		System.out.println("end testSaveMethod...");
 	}*/
 
-	@Test
+	/*@Test
 	public void testSaveECharMethod() {
 		System.out.println("coming in testSaveECharMethod...");
 
@@ -61,6 +68,20 @@ public class TestHibernate {
 		echarService.save(eCharData);
 
 		System.out.println("end testSaveECharMethod...");
+	}
+	*/
+	@Test
+	public void testSaveRoleMethod() {
+		System.out.println("coming in testRoleECharMethod...");
+
+		SystemRole role = new SystemRole();
+
+		role.setId(2);
+		role.setRolename("管理员");
+
+		systemService.save(role);
+
+		System.out.println("end testSaveRoleMethod...");
 	}
 	
 	/*@Test

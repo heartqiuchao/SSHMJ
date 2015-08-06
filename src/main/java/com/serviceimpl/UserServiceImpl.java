@@ -41,7 +41,6 @@ public class UserServiceImpl implements UserService{
 		} catch (Exception e) {
 			return false;
 		}
-		
 	}
 
 	@Override
@@ -52,7 +51,6 @@ public class UserServiceImpl implements UserService{
 		} catch (Exception e) {
 			return false;
 		}
-		
 	}
 
 	@Override

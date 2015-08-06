@@ -1,10 +1,12 @@
 package com.service;
 
-
 import java.util.List;
 
 import com.orm.ECharData;
 
+/**
+ * @author 秋草
+ */
 public interface ECharService {
 	/**
 	 * save ECharData

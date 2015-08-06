@@ -14,5 +14,6 @@
 	<!--  统一管理action-->
 	<bean id="testSpringAction" class="com.action.TestSpringAction" scope="prototype" />
 	<bean id="testEChartAction" class="com.action.TestEChartAction" scope="prototype" />
+	<bean id="roleAction" class="com.action.RoleAction" scope="prototype" />
 	
 </beans>
