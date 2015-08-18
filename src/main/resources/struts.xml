@@ -26,6 +26,8 @@
 	<constant name="struts.tag.altSyntax" value="true" />
 	<!-- 对于WebLogic,Orion,OC4J此属性应该设置成true -->
 	<constant name="struts.dispatcher.parametersWorkaround" value="false" />
+	<!-- 默认视图主题-->
+	<constant name="struts.ui.theme" value="simple"></constant>
 
 	<package name="basePackage" namespace="/" extends="struts-default">
 		<default-action-ref name="errorAction"></default-action-ref>

@@ -26,8 +26,8 @@ public class BaseDaoImpl implements BaseDao {
 	@Override
 	@Transactional(propagation=Propagation.REQUIRES_NEW)
 	public <T> void save(T t) {
-		//hibernateTemplate.saveOrUpdate(t);
-		hibernateTemplate.save(t);
+		hibernateTemplate.saveOrUpdate(t);
+//		hibernateTemplate.save(t);
 	}
 	// 在查询的时候，不需要开启事务，并且指定为只读，这样可以提高查询效率
 	@Override

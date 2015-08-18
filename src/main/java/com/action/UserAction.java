@@ -9,6 +9,7 @@ import com.opensymphony.xwork2.ActionSupport;
 import com.orm.SystemRole;
 import com.orm.SystemUser;
 import com.service.SystemService;
+import com.util.MD5Encode;
 
 @SuppressWarnings("serial")
 public class UserAction extends ActionSupport {
@@ -42,7 +43,7 @@ public class UserAction extends ActionSupport {
 			SystemUser user = new SystemUser();
 			user.setAccount(accountName);
 			user.setName(userName);
-			user.setPassword(password);
+			user.setPassword(MD5Encode.passwordEncode(password));
 			user.setUserage(Integer.parseInt(userAge));
 			user.setUserkey(userKey);
 			user.setUserphone(userPhone);
