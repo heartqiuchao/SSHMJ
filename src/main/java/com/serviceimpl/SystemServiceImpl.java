@@ -40,6 +40,11 @@ public class SystemServiceImpl implements SystemService{
 	}
 
 	@Override
+	public <T> List<T> findHqlAll(String hql) {
+		return baseDao.query(hql);
+	}
+	
+	@Override
 	public boolean deleteById(Class<?> clazz, String id) {
 		try {
 			baseDao.deleteById(clazz, Integer.parseInt(id));

@@ -26,6 +26,12 @@ public interface SystemService {
 	 * @param <T>
 	 */
 	public <T> List<T> findAll(String clazz);
+	/**
+	 * 
+	 * @param hql
+	 * @return
+	 */
+	public <T> List<T> findHqlAll(String hql);
 	
 	/**
 	 * delete by id

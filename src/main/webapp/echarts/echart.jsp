@@ -319,6 +319,12 @@
 					            }
 					        }
 					    },
+					    dataZoom : {
+					    	show: true,
+					    	realtime:true,
+					    	start:20,
+					    	end:80
+					    } ,
 						//X 坐标
 						xAxis : [ {
 							type : 'category',
@@ -346,7 +352,7 @@
                 			    normal: {
                     				color: 'tomato',
                     				barBorderColor: 'tomato',
-                    				barBorderWidth: 6,
+                    				barBorderWidth: 2,
                     				barBorderRadius:0,
                     				label : {
                         				show: true, position: 'insideTop'

@@ -84,7 +84,7 @@ public class TestHibernate {
 		System.out.println("end testSaveRoleMethod...");
 	}*/
 	
-	@Test
+	/*@Test
 	public void testFindMethod() {
 		System.out.println("coming in testFindMethod...");
 
@@ -95,6 +95,18 @@ public class TestHibernate {
 
 		System.out.println("end testFindMethod...");
 	}
+	*/
+	
+	@Test
+	public void testHqlFindMethod() {
+		System.out.println("coming in testFindMethod...");
+		final String hqlString="from SystemUser,SystemRole where userrolename='超级管理员'";
+	    
+		System.out.println((Object)systemService.findHqlAll(hqlString).get(0));
+
+		System.out.println("end testFindMethod...");
+	}
+	
 	
 	/*@Test
 	public void testFindAllUserMethod() {

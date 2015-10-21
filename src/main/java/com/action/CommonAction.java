@@ -1,6 +1,11 @@
 package com.action;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
@@ -17,6 +22,17 @@ import com.service.CommonService;
 @SuppressWarnings("serial")
 public class CommonAction extends ActionSupport{
 	
+	private String jsonUrl;
+	
+	
+	public String getJsonUrl() {
+		return jsonUrl;
+	}
+
+	public void setJsonUrl(String jsonUrl) {
+		this.jsonUrl = jsonUrl;
+	}
+
 	@Autowired
 	CommonService commonService;
 	
@@ -55,4 +71,29 @@ public class CommonAction extends ActionSupport{
 		}
 		return;
 	}
+	
+	public  void loadJson () {
+		System.err.println("$$$$$coming into loadjson...."+jsonUrl);
+		HttpServletResponse response=ServletActionContext.getResponse();
+        StringBuilder json = new StringBuilder();
+        try {
+            URL urlObject = new URL(jsonUrl);
+            URLConnection uc =urlObject.openConnection();
+            BufferedReader in = new BufferedReader(new InputStreamReader(uc.getInputStream()));
+            String inputLine = null;
+            while ( (inputLine = in.readLine()) != null) {
+                json.append(inputLine);
+            }
+            in.close();
+          //返回给前端页面
+    		response.setContentType("text/html; charset=utf-8");//设置返回时的编码格式
+    		response.getWriter().write(json.toString());
+    		System.err.println(json.toString());
+        } catch (MalformedURLException e) {
+        	e.printStackTrace();
+        } catch (IOException e) {
+        	e.printStackTrace();
+        }
+        return ;
+    }
 }
